@@ -1,0 +1,18 @@
+
+https://docs.google.com/document/d/1oqflsJSBqRZLKrQTkzcCPLNEcHhT7-LY55YF-JSZ_yQ/edit?ts=5ccb9329
+
+
+
+Rtesseract
+ReadPDF
+ Use branch refactor
+ Anything in the refactor branch in the Depreciated.R  has been moved to another package.
+GetDocElements
+
+ 
+
+2 different bounding box functions
+How do the functions in GetDocElements handle both.
+
+New classes for bounding boxes of different levels
+Class for identifying the shapes.

@@ -1,0 +1,199 @@
+
+Probably best to focus on the intermediate layer and integrating OCR and PDF.
+Perhaps getting
++ margins
++ a title or
++ section titles
++ or number of columns
+
+
+margins is in GetDocElements.
+
+Characteristics
+
+
+
+pages
+
+
+Class Hierarchy
+
+Add generic BoundingBox class that sits above both OCR and PDF
+  Virtual class
+  N
+
+
+BoundingBox
+
+                                                                  OCRResults
+       PDFBoundingBox                                         OCRBoundingBox
+PDFTextBoundingBox  PDFShapesBoundignBox            OCRTextBoundingBox  OCRShapesBoundignBox
+                                                        level-OCRResults, e.g. Word, Textline, ....
+
+
+Dimensions of the page.
+
+
+pageSize()
+
+
+
+# Both OCR and PDF
+Two choices for representing the page dimensions with the bounding box from OCR and PDF for "page"
+setClass("BoundingBox", representation("VIRTUAL", width = "numeric", height = "numeric"), contains = "data.frame")
+setClass("PDFBoundingBox", contains = "BoundingBox")
+
+
+structure(bb, class = c("PDFBoundingBox", class(bb)), width = .., height = ...)
+
+`width<-.PDFBoundingBox` = function(x, ..., value)
+{
+  attr(x, "width") <- value
+  x
+}
+
+
+is a
+contains a
+extends a
+
+
++ should width and height have units.
++ 
+
+
+¿S3 or S4?
+ + S4
+
+
+Verbs - generic functions.
+ + to make sense across PDF and OCR
+   + pageSize() as opposed to dim()
+   + getTextBBox()
+
+
+If we can define verbs that are essential primitives for each of OCR and PDF
+then GetDocElements can be written entirely in terms of these primitives.
+ + These primitives are methods in OCR and PDF
+
+Or convert to common format.
+
+3 ways to do "this"
+ + i.e. implement functions in GetDocElements (GDE)
+   1. Convert bbox to single format and then implement the GDE function
+      + 2 as() methods for OCRBoundingBox and PDFBoundingBox  to common format.
+         + Maybe only one as the other is the defining format.
+      + 1 implementation fo the GDE function
+   1. [best when possible] GDE function only calls primitive functions that have methods in OCR & PDF
+      + GDE function never accesses fields or the representation of the bbox/object
+   1. [less good] Methods in GDE that are specialized for classes in OCR & PDF.
+      + getSectionTitles() and versions for each of OCR and PDF
+      + Lives in GDE because not directly related to OCR and PDF - higher-level concept
+      + One could argue convincingly that getSectionTitles should be implemented in terms of
+         lower-level generic functions
+   1. We provide package-level functions in the calls to GDE functions and these package-level functions
+      know about the representation.
+   1. Just leave the methods in OCR and PDF - methods in OCR & PDF for generics defined in GDE.
+
+if("color" %in% names(bb))
+
+if(hasColor(bb))
+
+
++ margins versus getMargins()
++ GetBoxes versus getBoxes  (GetBoxes comes from the tesseract C API so consistent with that)
+
+
+
+Probably bad idead
+
+
+margins.character =
+function(page)
+{
+    thing = switch(getExtension(page),
+       pdf = readPDFXML(page),
+       png = GetBoxes(page)
+     )
+     margins(thing)
+}
+
+
+hard coding how we convert
+exposing information in OCR & PDF packages via GDE - breaks encapsulation.
+
+Alternative
+setAs("character", "Document",
+function(from) {
+    thing = switch(getExtension(page),
+       pdf = readPDFXML(page),
+       png = GetBoxes(page)
+     )
+})
+
++ This at least centralizes how we convert a character string to a Document
++ Outside of margins() alone, but available for any function.
+- GetBoxes returns a BBox not a document, so not clear that we have the same concept or type of object going forward
+   in margins()
+   + However it would work since we have methods for margins() on these different unrelated class of objects.
+
+Possibly better is to have a method that takes a file name as a string and turns it into a
+file name that has a class associated with e.g. PNGFilename, PDFFilename, JPEGFilename
+These extend the class named File and File is a parallel class to Directory and they have a common parent
+called File/DirectoryName
+
+
+setMethod("margins", "character",
+  function(page)
+  {
+     thing = as(as(page, "Filename"), "Document")
+     margins(thing)
+  })
+
+setAs("PNGFilename", "Document", ....)
+setAs("PDFFilename", "Document", ....)
+
+
+If we do this, pixRead() would read the image, but that is not a "Document"
+
+
+Alternative
+DocumentConverters = list(pdf = readPDF, tiff = multiPageTiffRead)
+
+readDocFromFile = function(filename, ...)
+{
+ i  = match(getExtension(), names(DocumentConverters))
+ if(is.na(i))
+   stop("....")
+
+  DocumentConverts[[i]](filename, ...)
+}
+
+margins.character =
+function(page)
+{
+    thing = readDocFromFile(page)
+    margins(thing)
+}
+
+registerDocConverter =
+function(..., .converters = list(...))
+{
+  old = DocumentConverters 
+  DocumentConverters[names(.conveters)] <<- .converters
+  old
+}
+
+This won't actually work as-is because we can't change the package
+after it is sealed.
+So we create an environment  for the DocumentConverters and
+update that, or use a closure.
+Factory - a singleton - only instance of this so update in only one place.
+Or use a closure/reference class/R6, .....
+
+
+
+
+
+yes - Should this do all pages and return the list of all pages
+no - Or compute the "aggregate" margins.
