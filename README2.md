@@ -50,14 +50,39 @@ setdiff(unlist(sapply(gg, `[[`, "functions")), c(ls(e), ls("package:base"), ls("
 [37] "getSibling"       
 
 In GetDocElements
-findAbstract, hasCoverPage, isCentered, 
-
 Need to implement for GetDocElements.
+findAbstract, hasCoverPage, isCentered, 
+getTextByCols
+findShortLines, getLineEnds
 nodesByLine
+isCentered
+
+hasCoverPage
+
+getNumPages, getPages
+pageOf - does it make sense for scanned documents - yes, but not for page.
+
+
+
+
 
 PDF-XML
-getFontInfo,
+getFontInfo,getTextNodeColors, getTextFonts, getDocFont,
+getFontText
+readPDF
+
+isBold, isScanned
+
+readPDFXML        
 
 xpathQ,
-xmlGetAttr, xmlName, xmlParent
 
+xmlGetAttr, xmlName, xmlParent, xpathSApply, getNodeSet, removeNodes, getSibling, xmlAttrs, docName
+
+URLdecode
+
+
+
+[28] 
+[31]     
+[34] ""       
