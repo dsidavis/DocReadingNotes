@@ -141,17 +141,109 @@ This would allow for calls
 ```
 margins(, myBBox)
 ```
+Note we have repeated the code for the two methods. We should write this as we do below
+by declaring a temporary function and assigning that
+
 
 We also want to allow for `margins(myBBox)`
-so we can define a method 
+so we can define a method as
 ```
 setMethod("margins", c("TextBoundingBox"),
            function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
-               c(left = min(bbox$x), right = max(bbox$x + bbox$height))
+               c(left = min(obj$x), right = max(obj$x + obj$height))
            })
+```
+This is not what we want. We are repeating the same computations we
+have in the method for "ANY" but we had to change the code to use
+obj rather than bbox.
+Secondly, if somebody writes a more specific method for 
+`margins(, new("MyTextBoundingBoxClass"))`, this will not get invoked
+if the bounding box is passed as the first argument.
+
+So instead, we write this so that it calls margin() but with the
+first argument in the second plage.
+```
+setMethod("margins", c(obj = "TextBoundingBox"),
+           function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
+               margins(, obj)
+           })    
+```
+The call to `margins(new("MyTextBoundingBoxClass"))`
+is now mapped to 
+`margins(, new("MyTextBoundingBoxClass"))`
+and any more specific methods will be invoked.
+
+
+So our 
+
+```
+setGeneric("margins",
+           function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
+              standardGeneric("margins")   # 
+          })
+
+tmp = function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
+               c(left = min(bbox$x), right = max(bbox$x + bbox$height), from = "ANY")
+           }
+setMethod("margins", c("ANY"), tmp)
+
+setMethod("margins", c(bbox = "TextBoundingBox"), tmp)
+
+rm(tmp)
+
+setMethod("margins", c(obj = "TextBoundingBox"),
+           function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
+               margins(, obj)
+           })    
 ```
 
 
+
+To illustrate that our MyTextBoundingBox method would be called, 
+let's define that class and a method for it:
+```
+setOldClass(c("MyTextBoundingBox", "TextBoundingBox", "data.frame"))
+setMethod("margins", c(bbox = "MyTextBoundingBox"),
+          function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
+               c(left = min(bbox$x), right = max(bbox$x + bbox$height), from = "MyTextBoundingBox")
+           })
+```
+We create an instance of this
+```
+my = structure(data.frame(x = 1:10, y = runif(10, 0, 400), width = rep(21, 10), height = rep(11, 10)),
+               class = c("MyTextBoundingBox", "TextBoundingBox", "data.frame"))
+```
+Now the two calls
+```
+a = margins(my)
+b = margins(, my)    
+```
+do end up invoking this method as we can see in the value of the `from` element in the result.
+
+
+
+Note that we could have avoided repeating the same code in our method for MyTextBoundingBox.
+We can define the method to call the inherited method that we are overriding, and then 
+to replace/add the new value for the `from` element
+```
+setMethod("margins", c(bbox = "MyTextBoundingBox"),
+          function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
+              ans = callNextMethod(, bbox)
+              ans["from"] = "MyTextBoundingBox"
+              ans
+           })
+```
+Again, this is a good practice. If somebody enhances the inherited method,
+we will get the benefit of those changes without changing our code.
+This what users expect and also just a "good thing".
+Of course, if the changes to the inherited method are incompatible with our expectations of what
+will be returned, then we have a problem.
+But that is a) less common as hopefully the authors will have backward compatibility as a goal, and 
+b) we can always then integrate the code from their original
+implementation into  our method.
+
+
+##
 Show 
 + encapsulation
   + writing higher- and intermediate-level functions without knowing about the specific classes

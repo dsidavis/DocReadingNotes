@@ -40,26 +40,30 @@ setGeneric("margins",
               standardGeneric("margins")   # 
           })
 
-setMethod("margins", c("ANY"),
-           function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
-               c(left = min(bbox$x), right = max(bbox$x + bbox$height))
-           })
+tmp = function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
+               c(left = min(bbox$x), right = max(bbox$x + bbox$height), from = "ANY")
+           }
+setMethod("margins", c("ANY"), tmp)
 
-if(FALSE)
-setMethod("margins", c(bbox = "TextBoundingBox"),
-           function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
-               c(left = min(bbox$x), right = max(bbox$x + bbox$height))
-           })
+setMethod("margins", c(bbox = "TextBoundingBox"), tmp)
 
-#if(FALSE)
 setMethod("margins", c(obj = "TextBoundingBox"),
            function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
                margins(, obj)
            })    
-           
 
-    pdfPage = structure(1, class = c("PDFToXMLPage", "DocumentPage"))    
-    ocrPage = structure(2, class = c("OCRPage", "DocumentPage"))
+
+setOldClass(c("MyTextBoundingBox", "TextBoundingBox", "data.frame"))
+setMethod("margins", c(bbox = "MyTextBoundingBox"),
+          function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
+              #              c(left = min(bbox$x), right = max(bbox$x + bbox$height), from = "MyTextBoundingBox")
+              ans = callNextMethod(, bbox)
+              ans["from"] = "MyTextBoundingBox"
+              ans
+           })
+
+pdfPage = structure(1, class = c("PDFToXMLPage", "DocumentPage"))    
+ocrPage = structure(2, class = c("OCRPage", "DocumentPage"))
 
 if(FALSE) {
     margins(pdfPage)
@@ -70,7 +74,16 @@ if(FALSE) {
     # creating this separately from the call to margins() to illustrate the
     # printing of the class takes place in the coercion and not in margins().
     margins(, bb.pdf)
-    margins(, bb.ocr)    
+    margins(, bb.ocr)
+
+    margins(bb.pdf)
+
+    my = structure(data.frame(x = 1:10, y = runif(10, 0, 400), width = rep(21, 10), height = rep(11, 10)),
+               class = c("MyTextBoundingBox", "TextBoundingBox", "data.frame"))
+    a = margins(my)
+    b = margins(, my)
+
+    selectMethod("margins", c("ANY", bbox = "MyTextBoundingBox"))
 }
 
 
