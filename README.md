@@ -126,6 +126,30 @@ setMethod("margins", c("ANY"),
                c(left = min(bbox$x), right = max(bbox$x + bbox$height))
            })
 ```
+We may want to make the signature more specific as  `c("ANY", "missing")`
+so that we get the default value of bbox.
+Or have the same function be defined for the method where bbox is
+explicitly a TextBoundingBox, e.g.
+
+```
+setMethod("margins", c(bbox = "TextBoundingBox"),
+           function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
+               c(left = min(bbox$x), right = max(bbox$x + bbox$height))
+           })
+```
+This would allow for calls 
+```
+margins(, myBBox)
+```
+
+We also want to allow for `margins(myBBox)`
+so we can define a method 
+```
+setMethod("margins", c("TextBoundingBox"),
+           function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
+               c(left = min(bbox$x), right = max(bbox$x + bbox$height))
+           })
+```
 
 
 Show 
