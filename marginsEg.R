@@ -1,23 +1,4 @@
-setOldClass("DocumentPage")
-setOldClass("Document")
-setOldClass(c("PDFToXMLPage", "DocumentPage") )
-setOldClass(c("OCRPage", "DocumentPage") )
-
-setOldClass(c("PDFToXMLDocument", "Document") )
-setOldClass(c("OCRDocument", "Document") )
-
-#setClass("TextBoundingBox", contains = "data.frame")
-#setClass("OCRPageTextBoundingBox", contains = "TextBoundingBox")
-#setClass("OCRDocumentTextBoundingBox", contains = "TextBoundingBox")
-#setClass("PDFToXMLDocumentTextBoundingBox", contains = "TextBoundingBox")
-#setClass("PDFToXMLPageTextBoundingBox", contains = "TextBoundingBox")
-
-setOldClass(c("TextBoundingBox", "data.frame"))
-setOldClass(c("OCRPageTextBoundingBox", "TextBoundingBox"))
-setOldClass(c("OCRDocumentTextBoundingBox", "TextBoundingBox"))
-setOldClass(c("PDFToXMLDocumentTextBoundingBox", "TextBoundingBox"))
-setOldClass(c("PDFToXMLPageTextBoundingBox", "TextBoundingBox"))
-
+source("ClassDefs.R")
 
 setAs("OCRPage", "TextBoundingBox",
       function(from) {
@@ -41,7 +22,7 @@ setGeneric("margins",
           })
 
 tmp = function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
-               c(left = min(bbox$x), right = max(bbox$x + bbox$height), from = "ANY")
+               c(left = min(bbox$x), right = max(bbox$x + bbox$width), from = "ANY")
            }
 setMethod("margins", c("ANY"), tmp)
 
@@ -56,7 +37,9 @@ setMethod("margins", c(obj = "TextBoundingBox"),
 setOldClass(c("MyTextBoundingBox", "TextBoundingBox", "data.frame"))
 setMethod("margins", c(bbox = "MyTextBoundingBox"),
           function(obj, bbox = as(obj, "TextBoundingBox"), ...) {
-              #              c(left = min(bbox$x), right = max(bbox$x + bbox$height), from = "MyTextBoundingBox")
+              # Could have copied the computations from the original method
+              # c(left = min(bbox$x), right = max(bbox$x + bbox$height), from = "MyTextBoundingBox")
+              # but we don't. We use callNextMethod().
               ans = callNextMethod(, bbox)
               ans["from"] = "MyTextBoundingBox"
               ans
