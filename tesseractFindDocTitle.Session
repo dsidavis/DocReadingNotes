@@ -1,0 +1,83 @@
+1> library(Rtesseract)
+[48:52] 2> bb = GetBoxes("Biological_YF_Risk-0_02.png")
+Warning: Invalid resolution 0 dpi. Using 70 instead.
+[49:23] 3> class(bb)
+[1] "WordOCRResults" "OCRResults"     "data.frame"    
+[49:27] 4> names(bb)
+[1] "left"       "bottom"     "right"      "top"        "text"      
+[6] "confidence"
+[49:32] 5> match(c("Abstract", "Introduction"), bb$text)
+[1]  55 226
+[49:52] 6> i = match(c("Abstract", "Introduction"), bb$text)
+[49:55] 7> bb[i,]
+    left bottom right  top         text confidence
+55  1833    903  2141  957     Abstract   87.80959
+226   99   1981   551 2035 Introduction   88.16623
+[49:59] 8> bb[i,]$top - bb[i, ]$bottom
+[1] 54 54
+[50:16] 9> summary(bb$top - bb$bottom)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  36.00   54.00   54.00   62.28   64.00 3210.00 
+[50:30] 10> w = (bb$top - bb$bottom) > 64
+[51:02] 11> bb$text[w]
+  [1] "The"             "risk"            "of"             
+  [4] "yellow"          "fever"           "dengue—infested"
+  [7] "Massad*,"        "Coutinho,"       "Lopez"          
+ [10] "—"               "of"              "Medicine,"      
+ [13] "Uniwversity"     "of"              "LIMO1/HCFMUSP," 
+ [16] "dengue"          "by"              "arthropod"      
+ [19] "mosquito"        "epidemic"        "yellow"         
+ [22] "dengue—infested" "reproduction"    "number,"        
+ [25] "dengue,"         "single"          "sylvatic"       
+ [28] "yellow"          "trigger"         "yellow"         
+ [31] "epidemic."       "Specifically,"   "analysed"       
+ [34] "relationship"    "period"          "possible"       
+ [37] "dengue"          "potential"       "yellow"         
+ [40] "proportion"      "people"          "against"        
+ [43] "yellow"          "epidemic"        "dengue—endemic" 
+ [46] "theory"          "proposed"        "by"             
+ [49] "Brazil,"         "dengue"          "yellow"         
+ [52] "already"         "by"              "peridomestic"   
+ [55] "aegypt"          "mosquitoes,"     "by"             
+ [58] "aegypti,"        "highly"          "appeared"       
+ [61] "major"           "epidemic"        "mosquito,"      
+ [64] "Janeiro"         "dengue"          "yellow"         
+ [67] "something"       "reported"        "reported"       
+ [70] "(MARQUES"        "early"           "(ANONYMOUS,"    
+ [73] "1999)."          "1994)."          "then,"          
+ [76] "yellow"          "outbreaks,"      "comprising"     
+ [79] "by"              "peridomestic"    "aegypt:"        
+ [82] "mosquitoes"      "(MON—"           "reported"       
+ [85] "1999a)."         "By"              "jungle"         
+ [88] "yellow"          "zoonosis,"       "monkeys"        
+ [91] "beings"          "sylvan"          "yellow"         
+ [94] "by"              "mosquitoes"      "reported"       
+ [97] "only"            "Haemagogus"      "major"          
+[100] "jungle"          "only"            "partly"         
+[103] "public"          "authorities,"    "particular"     
+[106] "by"              "provides"        "progressively"  
+[109] "reported"        "population"      "aegypti."       
+[112] "large"           "dengue"          "already"        
+[115] "early"           "yellow"          "yellow"         
+[118] "cycle"           "by"              "individuals,"   
+[121] "living"          "dengue—endemic" 
+[51:06] 12> w = (bb$top - bb$bottom) > quantile(bb$top - bb$bottom, .9)
+[51:29] 13> bb$text[w]
+ [1] "The"             "risk"            "of"             
+ [4] "yellow"          "fever"           "dengue—infested"
+ [7] "Massad*,"        "—"               "arthropod"      
+[10] "epidemic."       "Specifically,"   "dengue"         
+[13] "yellow"          "mosquitoes"      "jungle"         
+[16] "mosquitoes"      "public"          "particular"     
+[19] "population"     
+[51:33] 14> w = (bb$top - bb$bottom) > quantile(bb$top - bb$bottom, .95)
+[52:03] 15> bb$text[w]
+ [1] "The"             "risk"            "of"             
+ [4] "yellow"          "fever"           "dengue—infested"
+ [7] "Massad*,"        "—"               "arthropod"      
+[10] "epidemic."       "Specifically,"   "dengue"         
+[13] "yellow"          "mosquitoes"      "jungle"         
+[16] "mosquitoes"      "public"          "particular"     
+[19] "population"     
+[52:09] 16> w = (bb$top - bb$bottom) > quantile(bb$top - bb$bottom, .975)
+[52:18] 17> bb$text[w]
