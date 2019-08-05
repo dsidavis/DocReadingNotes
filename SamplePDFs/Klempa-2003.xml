@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml>
+  <docinfo>
+    <filename>./Dobrava Virus/Klempa-2003.pdf    </filename>     <date>Wed Nov  1 12:26:55 2017</date>
+     <filesize>140190</filesize>
+<META name="generator" content="pdftohtml 0.40"/>
+<META name="author" content=""/>
+<META name="keywords" content=""/>
+<META name="date" content="2002-12-02T17:38:19+00:00"/>
+<META name="subject" content=""/>
+<META name="title" content=""/>
+  </docinfo>
+<page number="1" position="absolute" top="0" left="0" width="904" height="1201" rotation="0.000000">
+	<fontspec id="0" size="10" family="Times" color="#231f20" isItalic="0"  isBold="0"  isOblique="0"  name="GFOPPF+Dutch801BT-Roman"/>
+	<fontspec id="1" size="7" family="Times" color="#231f20" isItalic="0"  isBold="0"  isOblique="0"  name="GFOPPF+Dutch801BT-Roman"/>
+	<fontspec id="2" size="10" family="Times" color="#231f20" isItalic="0"  isBold="0"  isOblique="0"  name="GFOPPK+Universal-GreekwithMathPi"/>
+	<fontspec id="3" size="22" family="Times" color="#231f20" isItalic="0"  isBold="0"  isOblique="0"  name="GFOPPF+Dutch801BT-Roman"/>
+	<fontspec id="4" size="22" family="Times" color="#231f20" isItalic="1"  isBold="0"  isOblique="0"  name="GFPAAA+Dutch801BT-Italic"/>
+	<fontspec id="5" size="14" family="Times" color="#231f20" isItalic="0"  isBold="0"  isOblique="0"  name="GFOPPF+Dutch801BT-Roman"/>
+	<fontspec id="6" size="8" family="Times" color="#231f20" isItalic="0"  isBold="0"  isOblique="0"  name="GFOPPF+Dutch801BT-Roman"/>
+	<fontspec id="7" size="11" family="Times" color="#231f20" isItalic="1"  isBold="0"  isOblique="0"  name="GFPAAA+Dutch801BT-Italic"/>
+	<fontspec id="8" size="6" family="Times" color="#231f20" isItalic="0"  isBold="0"  isOblique="0"  name="GFOPPF+Dutch801BT-Roman"/>
+	<fontspec id="9" size="11" family="Times" color="#231f20" isItalic="0"  isBold="0"  isOblique="0"  name="GFPAAL+Dutch801BT-Bold"/>
+	<fontspec id="10" size="11" family="Times" color="#231f20" isItalic="1"  isBold="0"  isOblique="0"  name="GFPABC+Dutch801BT-BoldItalic"/>
+	<fontspec id="11" size="11" family="Times" color="#231f20" isItalic="0"  isBold="0"  isOblique="0"  name="GFOPPF+Dutch801BT-Roman"/>
+	<fontspec id="12" size="11" family="Times" color="#231f20" isItalic="0"  isBold="0"  isOblique="0"  name="GFOPPK+Universal-GreekwithMathPi"/>
+<text top="79" left="78" width="5" height="15" font="0" rotation="0.000000">J</text>
+<text top="82" left="84" width="58" height="11" font="1" rotation="0.000000">OURNAL OF</text>
+<text top="79" left="146" width="9" height="15" font="0" rotation="0.000000">V</text>
+<text top="82" left="155" width="45" height="11" font="1" rotation="0.000000">IROLOGY</text>
+<text top="79" left="200" width="118" height="15" font="0" rotation="0.000000">, Jan. 2003, p. 804­809</text>
+<text top="79" left="752" width="74" height="15" font="0" rotation="0.000000">Vol. 77, No. 1</text>
+<text top="93" left="78" width="323" height="15" font="0" rotation="0.000000">0022-538X/03/$08.00 0 DOI: 10.1128/JVI.77.1.804­809.2003</text>
+<text top="106" left="78" width="398" height="15" font="0" rotation="0.000000">Copyright © 2003, American Society for Microbiology. All Rights Reserved.</text>
+<text top="148" left="86" width="732" height="30" font="3" rotation="0.000000">Genetic Interaction between Distinct Dobrava Hantavirus Subtypes in</text>
+<text top="175" left="213" width="193" height="29" font="4" rotation="0.000000">Apodemus agrarius</text>
+<text top="175" left="413" width="38" height="30" font="3" rotation="0.000000">and</text>
+<text top="175" left="459" width="17" height="29" font="4" rotation="0.000000">A</text>
+<text top="175" left="476" width="6" height="30" font="3" rotation="0.000000">.</text>
+<text top="175" left="490" width="93" height="29" font="4" rotation="0.000000">flavicollis</text>
+<text top="175" left="591" width="100" height="30" font="3" rotation="0.000000">in Nature</text>
+<text top="211" left="90" width="103" height="20" font="5" rotation="0.000000">Boris Klempa,</text>
+<text top="209" left="193" width="16" height="13" font="6" rotation="0.000000">1,2</text>
+<text top="211" left="214" width="133" height="20" font="5" rotation="0.000000">Heiko A. Schmidt,</text>
+<text top="209" left="348" width="6" height="13" font="6" rotation="0.000000">3</text>
+<text top="211" left="359" width="104" height="20" font="5" rotation="0.000000">Rainer Ulrich,</text>
+<text top="209" left="463" width="6" height="13" font="6" rotation="0.000000">1</text>
+<text top="211" left="475" width="96" height="20" font="5" rotation="0.000000">Stefan Kaluz,</text>
+<text top="209" left="571" width="6" height="13" font="6" rotation="0.000000">2</text>
+<text top="211" left="577" width="119" height="20" font="5" rotation="0.000000"> Milan Labuda,</text>
+<text top="209" left="696" width="6" height="13" font="6" rotation="0.000000">4</text>
+<text top="211" left="708" width="99" height="20" font="5" rotation="0.000000">Helga Meisel,</text>
+<text top="209" left="807" width="6" height="13" font="6" rotation="0.000000">1</text>
+<text top="229" left="314" width="92" height="20" font="5" rotation="0.000000">Brian Hjelle,</text>
+<text top="227" left="406" width="6" height="13" font="6" rotation="0.000000">5</text>
+<text top="229" left="418" width="157" height="20" font="5" rotation="0.000000">and Detlev H. Kru¨ger</text>
+<text top="227" left="575" width="6" height="13" font="6" rotation="0.000000">1</text>
+<text top="229" left="581" width="8" height="20" font="5" rotation="0.000000">*</text>
+<text top="254" left="90" width="495" height="17" font="7" rotation="0.000000">Institute of Virology, Charite´ School of Medicine, Humboldt University, D-10098 Berlin,</text>
+<text top="253" left="585" width="5" height="10" font="8" rotation="0.000000">1</text>
+<text top="254" left="595" width="219" height="17" font="7" rotation="0.000000">and Max Planck Institute of Molecular</text>
+<text top="269" left="108" width="146" height="17" font="7" rotation="0.000000">Genetics, D-14195 Berlin,</text>
+<text top="268" left="254" width="5" height="10" font="8" rotation="0.000000">3</text>
+<text top="269" left="264" width="171" height="17" font="7" rotation="0.000000">Germany; Institute of Virology</text>
+<text top="268" left="434" width="5" height="10" font="8" rotation="0.000000">2</text>
+<text top="269" left="444" width="139" height="17" font="7" rotation="0.000000">and Institute of Zoology,</text>
+<text top="268" left="584" width="5" height="10" font="8" rotation="0.000000">4</text>
+<text top="269" left="593" width="202" height="17" font="7" rotation="0.000000">Slovak Academy of Sciences, 84206</text>
+<text top="284" left="161" width="581" height="17" font="7" rotation="0.000000">Bratislava, Slovakia; and Center for Emerging Infectious Diseases, Department of Pathology, University</text>
+<text top="299" left="294" width="310" height="17" font="7" rotation="0.000000">of New Mexico, Albuquerque, New Mexico 87131-5223</text>
+<text top="298" left="604" width="5" height="10" font="8" rotation="0.000000">5</text>
+<text top="327" left="316" width="272" height="15" font="0" rotation="0.000000">Received 11 July 2002/Accepted 16 September 2002</text>
+<text top="358" left="146" width="353" height="15" font="9" rotation="0.000000">Dobrava virus (DOBV) occurs in two different rodent species,</text>
+<text top="358" left="502" width="111" height="16" font="10" rotation="0.000000">Apodemus flavicollis</text>
+<text top="358" left="616" width="91" height="15" font="9" rotation="0.000000">(DOBV-Af) and</text>
+<text top="358" left="710" width="8" height="16" font="10" rotation="0.000000">A</text>
+<text top="358" left="719" width="3" height="15" font="9" rotation="0.000000">.</text>
+<text top="358" left="725" width="46" height="16" font="10" rotation="0.000000">agrarius</text>
+<text top="373" left="132" width="639" height="15" font="9" rotation="0.000000">(DOBV-Aa). We sequenced the S and M genomic segments from sympatric DOBV-Af and DOBV-Aa strains</text>
+<text top="388" left="132" width="639" height="15" font="9" rotation="0.000000">which fell into two distinct genetic lineages. Molecular phylogenetic analyses gave evidence for genetic reas-</text>
+<text top="403" left="132" width="639" height="15" font="9" rotation="0.000000">sortment between S and M segments of DOBV-Af and DOBV-Aa and indicated homologous recombination</text>
+<text top="418" left="132" width="639" height="15" font="9" rotation="0.000000">events in DOBV evolution. DOBV-Af and DOBV-Aa are distinct but also subject to genetic exchanges that affect</text>
+<text top="433" left="132" width="179" height="15" font="9" rotation="0.000000">their evolutionary trajectories.</text>
+<text top="474" left="92" width="347" height="17" font="11" rotation="0.000000">Hantaviruses are emerging viruses which cause two human</text>
+<text top="491" left="78" width="360" height="17" font="11" rotation="0.000000">zoonoses, hemorrhagic fever with renal syndrome and hanta-</text>
+<text top="507" left="78" width="360" height="17" font="11" rotation="0.000000">virus pulmonary syndrome (8, 11, 19). In contrast to other</text>
+<text top="524" left="78" width="78" height="17" font="11" rotation="0.000000">genera of the</text>
+<text top="524" left="160" width="73" height="17" font="7" rotation="0.000000">Bunyaviridae</text>
+<text top="524" left="238" width="201" height="17" font="11" rotation="0.000000">family, they are transmitted to hu-</text>
+<text top="540" left="78" width="190" height="17" font="11" rotation="0.000000">mans from rodents of the family</text>
+<text top="540" left="273" width="47" height="17" font="7" rotation="0.000000">Muridae</text>
+<text top="540" left="320" width="119" height="17" font="11" rotation="0.000000">, their natural reser-</text>
+<text top="557" left="78" width="360" height="17" font="11" rotation="0.000000">voirs. The virus genome consists of three segments of negative-</text>
+<text top="573" left="78" width="360" height="17" font="11" rotation="0.000000">stranded RNA: the large (L) segment encodes the viral RNA</text>
+<text top="590" left="78" width="360" height="17" font="11" rotation="0.000000">polymerase, the medium (M) segment encodes the envelope</text>
+<text top="606" left="78" width="360" height="17" font="11" rotation="0.000000">glycoproteins G1 and G2, and the small (S) segment encodes</text>
+<text top="623" left="78" width="173" height="17" font="11" rotation="0.000000">the nucleocapsid (N) protein.</text>
+<text top="639" left="92" width="347" height="17" font="11" rotation="0.000000">Prominent examples of hantaviruses that cause human dis-</text>
+<text top="656" left="78" width="360" height="17" font="11" rotation="0.000000">ease are the Hantaan virus (HTNV) and Seoul virus (SEOV)</text>
+<text top="672" left="78" width="360" height="17" font="11" rotation="0.000000">in Asia, Puumala virus (PUUV) and Dobrava virus (DOBV) in</text>
+<text top="689" left="78" width="360" height="17" font="11" rotation="0.000000">Europe, Sin Nombre virus (SNV) in North America, and</text>
+<text top="705" left="78" width="360" height="17" font="11" rotation="0.000000">Andes virus in South America. The close phylogenetic corre-</text>
+<text top="722" left="78" width="360" height="17" font="11" rotation="0.000000">spondence between hantaviruses and their reservoir hosts has</text>
+<text top="738" left="78" width="360" height="17" font="11" rotation="0.000000">been interpreted as evidence for coevolution (cospeciation) of</text>
+<text top="755" left="78" width="114" height="17" font="11" rotation="0.000000">virus and host (16).</text>
+<text top="771" left="92" width="347" height="17" font="11" rotation="0.000000">Interestingly, DOBV is hosted by two different rodent spe-</text>
+<text top="788" left="78" width="25" height="17" font="11" rotation="0.000000">cies,</text>
+<text top="788" left="107" width="115" height="17" font="7" rotation="0.000000">Apodemus flavicollis</text>
+<text top="788" left="226" width="148" height="17" font="11" rotation="0.000000">(yellow-necked mice) and</text>
+<text top="788" left="378" width="9" height="17" font="7" rotation="0.000000">A</text>
+<text top="788" left="387" width="3" height="17" font="11" rotation="0.000000">.</text>
+<text top="788" left="394" width="44" height="17" font="7" rotation="0.000000">agrarius</text>
+<text top="804" left="78" width="255" height="17" font="11" rotation="0.000000">(striped field mice). In southeastern Europe,</text>
+<text top="804" left="337" width="9" height="17" font="7" rotation="0.000000">A</text>
+<text top="804" left="346" width="3" height="17" font="11" rotation="0.000000">.</text>
+<text top="804" left="352" width="52" height="17" font="7" rotation="0.000000">flavicollis</text>
+<text top="804" left="408" width="30" height="17" font="11" rotation="0.000000">is the</text>
+<text top="821" left="78" width="360" height="17" font="11" rotation="0.000000">natural reservoir for DOBV. A virus isolate from Slovenia (1,</text>
+<text top="837" left="78" width="343" height="17" font="11" rotation="0.000000">2) has been taken as the prototypical DOBV lineage from</text>
+<text top="837" left="426" width="9" height="17" font="7" rotation="0.000000">A</text>
+<text top="837" left="435" width="3" height="17" font="11" rotation="0.000000">.</text>
+<text top="854" left="78" width="52" height="17" font="7" rotation="0.000000">flavicollis</text>
+<text top="854" left="137" width="302" height="17" font="11" rotation="0.000000">(DOBV-Af). In contrast, in eastern, northeastern,</text>
+<text top="870" left="78" width="244" height="17" font="11" rotation="0.000000">and central Europe, DOBV is carried by</text>
+<text top="870" left="328" width="9" height="17" font="7" rotation="0.000000">A</text>
+<text top="870" left="337" width="3" height="17" font="11" rotation="0.000000">.</text>
+<text top="870" left="346" width="44" height="17" font="7" rotation="0.000000">agrarius</text>
+<text top="870" left="395" width="43" height="17" font="11" rotation="0.000000">(14). A</text>
+<text top="887" left="78" width="360" height="17" font="11" rotation="0.000000">virus of the DOBV-Aa group, Saaremaa virus, was isolated in</text>
+<text top="903" left="78" width="360" height="17" font="11" rotation="0.000000">Estonia, northeastern Europe (12), and was later suggested to</text>
+<text top="920" left="78" width="324" height="17" font="11" rotation="0.000000">represent the prototype for a unique virus species (13).</text>
+<text top="936" left="92" width="327" height="17" font="11" rotation="0.000000">Although a large overlap between the distribution of</text>
+<text top="936" left="426" width="9" height="17" font="7" rotation="0.000000">A</text>
+<text top="936" left="435" width="3" height="17" font="11" rotation="0.000000">.</text>
+<text top="953" left="78" width="44" height="17" font="7" rotation="0.000000">agrarius</text>
+<text top="953" left="127" width="21" height="17" font="11" rotation="0.000000">and</text>
+<text top="953" left="152" width="9" height="17" font="7" rotation="0.000000">A</text>
+<text top="953" left="161" width="3" height="17" font="11" rotation="0.000000">.</text>
+<text top="953" left="169" width="52" height="17" font="7" rotation="0.000000">flavicollis</text>
+<text top="953" left="225" width="213" height="17" font="11" rotation="0.000000">exists in Europe, so far the two host-</text>
+<text top="969" left="78" width="360" height="17" font="11" rotation="0.000000">specific subtypes have been detected sympatrically only in the</text>
+<text top="474" left="465" width="360" height="17" font="11" rotation="0.000000">border region between central and southeastern Europe (3,</text>
+<text top="491" left="465" width="360" height="17" font="11" rotation="0.000000">23). The coexistence of two different virus lineages in the same</text>
+<text top="508" left="465" width="360" height="17" font="11" rotation="0.000000">geographic region indicates some genetic stability and evolu-</text>
+<text top="524" left="465" width="115" height="17" font="11" rotation="0.000000">tionary distinctness.</text>
+<text top="541" left="479" width="347" height="17" font="11" rotation="0.000000">We have determined the total nucleotide sequences of the S</text>
+<text top="557" left="465" width="360" height="17" font="11" rotation="0.000000">and M segments of DOBV-Af (DOBV/Esl/400Af/98) and</text>
+<text top="574" left="465" width="360" height="17" font="11" rotation="0.000000">DOBV-Aa (DOBV/Esl/856Aa/97 and DOBV/Esl/862Aa/97)</text>
+<text top="590" left="465" width="360" height="17" font="11" rotation="0.000000">strains which were found to occur only 13 km apart in Slovakia,</text>
+<text top="607" left="465" width="360" height="17" font="11" rotation="0.000000">central Europe. This discovery offered an opportunity to re-</text>
+<text top="624" left="465" width="360" height="17" font="11" rotation="0.000000">move the effects of geographic isolation on the supposedly</text>
+<text top="640" left="465" width="360" height="17" font="11" rotation="0.000000">host-specific genetic determinants that distinguish DOBV-Af</text>
+<text top="657" left="465" width="360" height="17" font="11" rotation="0.000000">from DOBV-Aa and to examine whether the two virus types</text>
+<text top="673" left="465" width="360" height="17" font="11" rotation="0.000000">are subject to genetic interactions with one another that could</text>
+<text top="690" left="465" width="234" height="17" font="11" rotation="0.000000">influence their evolutionary trajectories.</text>
+<text top="707" left="479" width="347" height="17" font="11" rotation="0.000000">In 1997 and 1998, rodents were trapped in eight localities in</text>
+<text top="723" left="465" width="360" height="17" font="11" rotation="0.000000">eastern Slovakia by using bridge-metal traps and blood and</text>
+<text top="740" left="465" width="360" height="17" font="11" rotation="0.000000">tissue samples were collected as previously described (23).</text>
+<text top="756" left="465" width="360" height="17" font="11" rotation="0.000000">Rodents were tested for the presence of hantavirus-specific</text>
+<text top="773" left="465" width="360" height="17" font="11" rotation="0.000000">immunoglobulin G antibodies by enzyme-linked immunosor-</text>
+<text top="789" left="465" width="360" height="17" font="11" rotation="0.000000">bent assay as described by Sibold et al. (22, 23). The RNA of</text>
+<text top="806" left="465" width="360" height="17" font="11" rotation="0.000000">seropositive rodents was extracted from homogenized lung</text>
+<text top="823" left="465" width="360" height="17" font="11" rotation="0.000000">tissues by using Trizol reagent (Gibco BRL Invitrogen,</text>
+<text top="839" left="465" width="360" height="17" font="11" rotation="0.000000">Karlsruhe, Germany) according to a standard protocol (4).</text>
+<text top="856" left="465" width="360" height="17" font="11" rotation="0.000000">Nested reverse transcription-PCR was carried out with the</text>
+<text top="872" left="465" width="360" height="17" font="11" rotation="0.000000">Robust reverse transcription-PCR system (Finnzymes, Espoo,</text>
+<text top="889" left="465" width="360" height="17" font="11" rotation="0.000000">Finland). A variety of oligonucleotide primers (available from</text>
+<text top="906" left="465" width="360" height="17" font="11" rotation="0.000000">the authors upon request) were used to generate six overlap-</text>
+<text top="922" left="465" width="360" height="17" font="11" rotation="0.000000">ping cDNA fragments for the entire M genome RNA segment.</text>
+<text top="939" left="465" width="360" height="17" font="11" rotation="0.000000">Amplification of the whole S segment was undertaken by use of</text>
+<text top="955" left="465" width="360" height="17" font="11" rotation="0.000000">a single genus-specific primer, RT-DOB (5 -ttctgcag TAG</text>
+<text top="972" left="465" width="360" height="17" font="11" rotation="0.000000">TAG TAK RCT CCC TAA ARA G), as described earlier (23).</text>
+<text top="988" left="479" width="347" height="17" font="11" rotation="0.000000">The amplified products were cloned into the pCR 2.1 vector</text>
+<text top="1005" left="465" width="360" height="17" font="11" rotation="0.000000">(TA cloning kit; Invitrogen, Leek, The Netherlands). Three</text>
+<text top="1022" left="465" width="360" height="17" font="11" rotation="0.000000">recombinant plasmids were sequenced in both directions, and</text>
+<text top="1038" left="465" width="360" height="17" font="11" rotation="0.000000">the consensus sequence from them was used. Dideoxy se-</text>
+<text top="1055" left="465" width="360" height="17" font="11" rotation="0.000000">quencing was performed on a LICOR sequencer with the Au-</text>
+<text top="1071" left="465" width="360" height="17" font="11" rotation="0.000000">toread kit (Pharmacia-Biotech, Freiburg, Germany) as de-</text>
+<text top="1088" left="465" width="360" height="17" font="11" rotation="0.000000">scribed by the manufacturer. Nucleic acid and amino acid</text>
+<text top="1022" left="90" width="348" height="15" font="0" rotation="0.000000">* Corresponding author. Mailing address: Institute of Virology,</text>
+<text top="1035" left="78" width="360" height="15" font="0" rotation="0.000000">Charite´ School of Medicine, Humboldt University, D-10098 Berlin,</text>
+<text top="1049" left="78" width="360" height="15" font="0" rotation="0.000000">Germany. Phone: 49-30-450 525 092. Fax: 49-30-450 525 907. E-mail:</text>
+<text top="1062" left="78" width="134" height="15" font="0" rotation="0.000000">detlev.kruger@charite.de.</text>
+<text top="1076" left="90" width="348" height="15" font="0" rotation="0.000000"> Present address: Department of Microbiology and Molecular Ge-</text>
+<text top="1089" left="78" width="335" height="15" font="0" rotation="0.000000">netics, University of California at Irvine, Irvine, CA 92697-4025.</text>
+<text top="1119" left="443" width="18" height="15" font="0" rotation="0.000000">804</text>
+<line bbox="213.998,461.611,689.498,461.611" lineWidth="0.250" fill.color="8998,7969,8224"  stroke.color="8998,7969,8224"  />
+<line bbox="78.248,1019.611,159.248,1019.611" lineWidth="0.250" fill.color="8998,7969,8224"  stroke.color="8998,7969,8224"  />
+</page>
+<page number="2" position="absolute" top="0" left="0" width="904" height="1201" rotation="0.000000">
+	<fontspec id="13" size="5" family="Times" color="#231f20" isItalic="1"  isBold="0"  isOblique="0"  name="GFPAAA+Dutch801BT-Italic"/>
+	<fontspec id="14" size="4" family="Times" color="#231f20" isItalic="1"  isBold="0"  isOblique="0"  name="GFPAAA+Dutch801BT-Italic"/>
+<text top="560" left="78" width="360" height="17" font="11" rotation="0.000000">sequence data were analyzed with the BioEdit software pack-</text>
+<text top="576" left="78" width="360" height="17" font="11" rotation="0.000000">age (6). Sequences were aligned with Clustal W (25) with</text>
+<text top="593" left="78" width="248" height="17" font="11" rotation="0.000000">default parameters and checked manually.</text>
+<text top="610" left="92" width="220" height="15" font="9" rotation="0.000000">Comparison of S segment sequences.</text>
+<text top="609" left="317" width="121" height="17" font="11" rotation="0.000000">We have established</text>
+<text top="626" left="78" width="360" height="17" font="11" rotation="0.000000">the total nucleotide sequence of the S segment of DOBV/Esl/</text>
+<text top="642" left="78" width="360" height="17" font="11" rotation="0.000000">400Af/98 (Esl/400Af). At 1,673 nucleotides (nt), this</text>
+<text top="659" left="78" width="360" height="17" font="11" rotation="0.000000">DOBV-Af S segment is shorter than the 1,704-nt DOBV/Esl/</text>
+<text top="675" left="78" width="360" height="17" font="11" rotation="0.000000">856Aa/97 (Esl/856Aa) and DOBV/Esl/862Aa/97 (Esl/862Aa) S</text>
+<text top="692" left="78" width="85" height="17" font="11" rotation="0.000000">segments (23).</text>
+<text top="708" left="92" width="347" height="17" font="11" rotation="0.000000">Table 1 shows the nucleotide and amino acid percent iden-</text>
+<text top="725" left="78" width="360" height="17" font="11" rotation="0.000000">tities among the N-encoding open reading frame (ORF) se-</text>
+<text top="741" left="78" width="360" height="17" font="11" rotation="0.000000">quences and deduced N proteins. Esl/400Af exhibited high</text>
+<text top="758" left="78" width="360" height="17" font="11" rotation="0.000000">nucleotide and amino acid sequence similarities to DOBV/</text>
+<text top="774" left="78" width="360" height="17" font="11" rotation="0.000000">Slovenia-Af (Slo/Af) but lower similarity to all DOBV-Aa</text>
+<text top="791" left="78" width="360" height="17" font="11" rotation="0.000000">strains. Virus strains Esl/856Aa and Esl/862Aa exhibited the</text>
+<text top="807" left="78" width="360" height="17" font="11" rotation="0.000000">lowest nucleotide sequence similarities (about 85 to 87%) to</text>
+<text top="824" left="78" width="360" height="17" font="11" rotation="0.000000">the two DOBV-Af strains as well as to the two DOBV/Saare-</text>
+<text top="840" left="78" width="360" height="17" font="11" rotation="0.000000">maa-Aa strains. At the amino acid level, the similarity of Esl/</text>
+<text top="857" left="78" width="360" height="17" font="11" rotation="0.000000">856Aa and Esl/862Aa to Saaremaa-Aa is lower than that to the</text>
+<text top="873" left="78" width="106" height="17" font="11" rotation="0.000000">DOBV-Af strains.</text>
+<text top="890" left="92" width="347" height="17" font="11" rotation="0.000000">The single ORF (nt 36 to 1325) for the Esl/400Af N protein</text>
+<text top="906" left="78" width="360" height="17" font="11" rotation="0.000000">encodes a putative protein of 429 amino acids (aa) in length.</text>
+<text top="923" left="78" width="360" height="17" font="11" rotation="0.000000">No putative ORF2 was found. In general, the N-terminal half</text>
+<text top="939" left="78" width="360" height="17" font="11" rotation="0.000000">of the predicted N protein (approximately 200 aa) is more</text>
+<text top="956" left="78" width="360" height="17" font="11" rotation="0.000000">conserved than the C-terminal half. Cysteine residues at amino</text>
+<text top="972" left="78" width="360" height="17" font="11" rotation="0.000000">acid positions 219, 244, 293, 315, and 319 were highly con-</text>
+<text top="989" left="78" width="41" height="17" font="11" rotation="0.000000">served.</text>
+<text top="1005" left="92" width="347" height="17" font="11" rotation="0.000000">The 3 noncoding region (3 NCR) of the S segment of strain</text>
+<text top="1022" left="78" width="360" height="17" font="11" rotation="0.000000">Esl/400Af is 348 nt long and appears highly similar to Slo/Af</text>
+<text top="1038" left="78" width="360" height="17" font="11" rotation="0.000000">but most different from Esl/856Aa and Esl/862Aa (Table 1).</text>
+<text top="1055" left="78" width="360" height="17" font="11" rotation="0.000000">Interestingly, the 3 NCR of Esl/856Aa and Esl/862Aa is longer</text>
+<text top="1071" left="78" width="360" height="17" font="11" rotation="0.000000">than that of Esl/400Af, due to a 32-nt insert that is an imperfect</text>
+<text top="1088" left="78" width="360" height="17" font="11" rotation="0.000000">repeat of a downstream sequence, beginning 28 nt downstream</text>
+<text top="560" left="465" width="360" height="17" font="11" rotation="0.000000">of the termination codon of the N gene. No other DOBV S</text>
+<text top="576" left="465" width="242" height="17" font="11" rotation="0.000000">segment sequences contain this insertion.</text>
+<text top="593" left="479" width="347" height="17" font="11" rotation="0.000000">Altogether, S segments of the two DOBV-Af strains were</text>
+<text top="609" left="465" width="360" height="17" font="11" rotation="0.000000">found to be very similar, whereas the DOBV-Aa strains exhib-</text>
+<text top="626" left="465" width="360" height="17" font="11" rotation="0.000000">ited higher diversity. The central and eastern European</text>
+<text top="642" left="465" width="360" height="17" font="11" rotation="0.000000">DOBV-Aa strains were found to be rather dissimilar from the</text>
+<text top="659" left="465" width="124" height="17" font="11" rotation="0.000000">Saaremaa-Aa strains.</text>
+<text top="676" left="479" width="233" height="15" font="9" rotation="0.000000">Comparison of M segment sequences.</text>
+<text top="675" left="719" width="106" height="17" font="11" rotation="0.000000">Total M segment</text>
+<text top="692" left="465" width="360" height="17" font="11" rotation="0.000000">nucleotide sequences were determined for the sympatrically</text>
+<text top="708" left="465" width="360" height="17" font="11" rotation="0.000000">occurring strains Esl/862Aa and Esl/400Af. Their lengths were</text>
+<text top="725" left="465" width="360" height="17" font="11" rotation="0.000000">3,643 and 3,648 nt, respectively. Both virus types encode a</text>
+<text top="741" left="465" width="360" height="17" font="11" rotation="0.000000">predicted glycoprotein precursor (GPC) of 1,135 aa. Table 2</text>
+<text top="758" left="465" width="360" height="17" font="11" rotation="0.000000">shows the degree of nucleotide and deduced amino acid se-</text>
+<text top="774" left="465" width="360" height="17" font="11" rotation="0.000000">quence identity between the glycoprotein-encoding ORFs of</text>
+<text top="791" left="465" width="360" height="17" font="11" rotation="0.000000">DOBV strains sequenced so far. Strain Esl/400Af resembles</text>
+<text top="807" left="465" width="360" height="17" font="11" rotation="0.000000">the DOBV/Slovenia-Af prototype sequence, whereas greater</text>
+<text top="824" left="465" width="360" height="17" font="11" rotation="0.000000">differences were found between Esl/862Aa and Saa/160v and,</text>
+<text top="840" left="465" width="360" height="17" font="11" rotation="0.000000">even more pronounced, between Esl/862Aa and the DOBV-Af</text>
+<text top="857" left="465" width="360" height="17" font="11" rotation="0.000000">strains. Similar relationships could be deduced from the com-</text>
+<text top="873" left="465" width="360" height="17" font="11" rotation="0.000000">parative analysis of the 3 NCR of the M segment (Table 2).</text>
+<text top="890" left="465" width="360" height="17" font="11" rotation="0.000000">The M segment 3 NCR exhibits a higher variability than does</text>
+<text top="906" left="465" width="293" height="17" font="11" rotation="0.000000">the S segment 3 NCR (compare Tables 1 and 2).</text>
+<text top="923" left="479" width="347" height="17" font="11" rotation="0.000000">Whereas the central European DOBV-Aa strains exhibited</text>
+<text top="939" left="465" width="360" height="17" font="11" rotation="0.000000">a similar, limited level of identity with both Saaremaa-Aa and</text>
+<text top="956" left="465" width="360" height="17" font="11" rotation="0.000000">DOBV-Af strains, the M segment of the central European</text>
+<text top="972" left="465" width="360" height="17" font="11" rotation="0.000000">DOBV-Aa strain showed higher similarity to the Saaremaa</text>
+<text top="989" left="465" width="360" height="17" font="11" rotation="0.000000">strains than to the DOBV-Af strains. In addition, the M seg-</text>
+<text top="1005" left="465" width="360" height="17" font="11" rotation="0.000000">ments of the DOBV-Af strains appeared more similar to each</text>
+<text top="1022" left="465" width="345" height="17" font="11" rotation="0.000000">other than did the DOBV-Aa M segments to one another.</text>
+<text top="1039" left="479" width="219" height="15" font="9" rotation="0.000000">Phylogenetic trees and reassortment.</text>
+<text top="1038" left="702" width="123" height="17" font="11" rotation="0.000000">To reconstruct maxi-</text>
+<text top="1055" left="465" width="360" height="17" font="11" rotation="0.000000">mum likelihood (ML) phylogenetic trees, we applied quartet</text>
+<text top="1071" left="465" width="360" height="17" font="11" rotation="0.000000">puzzling by using the TREE-PUZZLE package (20, 24). We</text>
+<text top="1088" left="465" width="360" height="17" font="11" rotation="0.000000">used the Tamura-Nei model; missing parameters were recon-</text>
+<text top="115" left="174" width="551" height="15" font="0" rotation="0.000000">TABLE 1. S segment nucleotide and amino acid percent identities of DOBV strains, HTNV, and SEOV</text>
+<text top="114" left="725" width="5" height="9" font="13" rotation="0.000000">a</text>
+<text top="150" left="79" width="76" height="13" font="6" rotation="0.000000">Segment portion</text>
+<text top="150" left="187" width="27" height="13" font="6" rotation="0.000000">Strain</text>
+<text top="139" left="484" width="103" height="13" font="6" rotation="0.000000">% Identity with strain:</text>
+<text top="161" left="246" width="46" height="13" font="6" rotation="0.000000">Esl/856Aa</text>
+<text top="161" left="312" width="46" height="13" font="6" rotation="0.000000">Esl/862Aa</text>
+<text top="161" left="378" width="44" height="13" font="6" rotation="0.000000">Kur/53Aa</text>
+<text top="161" left="443" width="44" height="13" font="6" rotation="0.000000">Kur/44Aa</text>
+<text top="161" left="507" width="39" height="13" font="6" rotation="0.000000">Saa/160v</text>
+<text top="161" left="567" width="43" height="13" font="6" rotation="0.000000">Saa/90Aa</text>
+<text top="161" left="630" width="44" height="13" font="6" rotation="0.000000">Esl/400Af</text>
+<text top="161" left="694" width="29" height="13" font="6" rotation="0.000000">Slo/Af</text>
+<text top="161" left="743" width="32" height="13" font="6" rotation="0.000000">HTNV</text>
+<text top="161" left="795" width="30" height="13" font="6" rotation="0.000000">SEOV</text>
+<text top="183" left="96" width="26" height="15" font="0" rotation="0.000000">ORF</text>
+<text top="183" left="174" width="53" height="15" font="0" rotation="0.000000">Esl/856Aa</text>
+<text top="183" left="328" width="21" height="15" font="0" rotation="0.000000">99.6</text>
+<text top="183" left="390" width="21" height="15" font="0" rotation="0.000000">90.5</text>
+<text top="183" left="457" width="21" height="15" font="0" rotation="0.000000">90.2</text>
+<text top="183" left="516" width="21" height="15" font="0" rotation="0.000000">87.0</text>
+<text top="183" left="578" width="21" height="15" font="0" rotation="0.000000">87.4</text>
+<text top="183" left="641" width="21" height="15" font="0" rotation="0.000000">85.0</text>
+<text top="183" left="698" width="21" height="15" font="0" rotation="0.000000">86.7</text>
+<text top="183" left="748" width="21" height="15" font="0" rotation="0.000000">74.0</text>
+<text top="183" left="799" width="21" height="15" font="0" rotation="0.000000">73.5</text>
+<text top="196" left="174" width="53" height="15" font="0" rotation="0.000000">Esl/862Aa</text>
+<text top="196" left="258" width="21" height="15" font="0" rotation="0.000000">99.5</text>
+<text top="196" left="390" width="21" height="15" font="0" rotation="0.000000">90.4</text>
+<text top="196" left="457" width="21" height="15" font="0" rotation="0.000000">90.2</text>
+<text top="196" left="516" width="21" height="15" font="0" rotation="0.000000">86.9</text>
+<text top="196" left="578" width="21" height="15" font="0" rotation="0.000000">87.3</text>
+<text top="196" left="641" width="21" height="15" font="0" rotation="0.000000">85.0</text>
+<text top="196" left="698" width="21" height="15" font="0" rotation="0.000000">86.7</text>
+<text top="196" left="748" width="21" height="15" font="0" rotation="0.000000">74.0</text>
+<text top="196" left="799" width="21" height="15" font="0" rotation="0.000000">73.6</text>
+<text top="210" left="174" width="50" height="15" font="0" rotation="0.000000">Kur/53Aa</text>
+<text top="210" left="258" width="21" height="15" font="0" rotation="0.000000">98.6</text>
+<text top="210" left="328" width="21" height="15" font="0" rotation="0.000000">98.6</text>
+<text top="210" left="457" width="21" height="15" font="0" rotation="0.000000">99.7</text>
+<text top="210" left="516" width="21" height="15" font="0" rotation="0.000000">87.8</text>
+<text top="210" left="578" width="21" height="15" font="0" rotation="0.000000">87.7</text>
+<text top="210" left="641" width="21" height="15" font="0" rotation="0.000000">87.6</text>
+<text top="210" left="698" width="21" height="15" font="0" rotation="0.000000">88.1</text>
+<text top="210" left="748" width="21" height="15" font="0" rotation="0.000000">74.2</text>
+<text top="210" left="799" width="21" height="15" font="0" rotation="0.000000">74.2</text>
+<text top="223" left="174" width="50" height="15" font="0" rotation="0.000000">Kur/44Aa</text>
+<text top="223" left="258" width="21" height="15" font="0" rotation="0.000000">98.1</text>
+<text top="223" left="328" width="21" height="15" font="0" rotation="0.000000">98.1</text>
+<text top="223" left="390" width="21" height="15" font="0" rotation="0.000000">99.5</text>
+<text top="223" left="516" width="21" height="15" font="0" rotation="0.000000">87.5</text>
+<text top="223" left="578" width="21" height="15" font="0" rotation="0.000000">87.4</text>
+<text top="223" left="641" width="21" height="15" font="0" rotation="0.000000">87.4</text>
+<text top="223" left="698" width="21" height="15" font="0" rotation="0.000000">87.8</text>
+<text top="223" left="748" width="21" height="15" font="0" rotation="0.000000">74.0</text>
+<text top="223" left="799" width="21" height="15" font="0" rotation="0.000000">74.1</text>
+<text top="237" left="174" width="45" height="15" font="0" rotation="0.000000">Saa/160v</text>
+<text top="237" left="258" width="21" height="15" font="0" rotation="0.000000">96.7</text>
+<text top="237" left="328" width="21" height="15" font="0" rotation="0.000000">96.7</text>
+<text top="237" left="390" width="21" height="15" font="0" rotation="0.000000">96.2</text>
+<text top="237" left="457" width="21" height="15" font="0" rotation="0.000000">95.8</text>
+<text top="237" left="578" width="21" height="15" font="0" rotation="0.000000">98.3</text>
+<text top="237" left="641" width="21" height="15" font="0" rotation="0.000000">87.5</text>
+<text top="237" left="698" width="21" height="15" font="0" rotation="0.000000">87.9</text>
+<text top="237" left="748" width="21" height="15" font="0" rotation="0.000000">73.3</text>
+<text top="237" left="799" width="21" height="15" font="0" rotation="0.000000">72.5</text>
+<text top="250" left="174" width="49" height="15" font="0" rotation="0.000000">Saa/90Aa</text>
+<text top="250" left="258" width="21" height="15" font="0" rotation="0.000000">96.5</text>
+<text top="250" left="328" width="21" height="15" font="0" rotation="0.000000">96.5</text>
+<text top="250" left="390" width="21" height="15" font="0" rotation="0.000000">96.0</text>
+<text top="250" left="457" width="21" height="15" font="0" rotation="0.000000">95.5</text>
+<text top="250" left="516" width="21" height="15" font="0" rotation="0.000000">99.7</text>
+<text top="250" left="641" width="21" height="15" font="0" rotation="0.000000">87.2</text>
+<text top="250" left="698" width="21" height="15" font="0" rotation="0.000000">88.0</text>
+<text top="250" left="748" width="21" height="15" font="0" rotation="0.000000">73.1</text>
+<text top="250" left="799" width="21" height="15" font="0" rotation="0.000000">72.8</text>
+<text top="264" left="174" width="51" height="15" font="0" rotation="0.000000">Esl/400Af</text>
+<text top="264" left="258" width="21" height="15" font="0" rotation="0.000000">97.6</text>
+<text top="264" left="328" width="21" height="15" font="0" rotation="0.000000">97.6</text>
+<text top="264" left="390" width="21" height="15" font="0" rotation="0.000000">97.2</text>
+<text top="264" left="457" width="21" height="15" font="0" rotation="0.000000">96.7</text>
+<text top="264" left="516" width="21" height="15" font="0" rotation="0.000000">97.2</text>
+<text top="264" left="578" width="21" height="15" font="0" rotation="0.000000">96.9</text>
+<text top="264" left="698" width="21" height="15" font="0" rotation="0.000000">95.3</text>
+<text top="264" left="748" width="21" height="15" font="0" rotation="0.000000">73.8</text>
+<text top="264" left="799" width="21" height="15" font="0" rotation="0.000000">72.5</text>
+<text top="277" left="174" width="33" height="15" font="0" rotation="0.000000">Slo/Af</text>
+<text top="277" left="258" width="21" height="15" font="0" rotation="0.000000">97.9</text>
+<text top="277" left="328" width="21" height="15" font="0" rotation="0.000000">97.9</text>
+<text top="277" left="390" width="21" height="15" font="0" rotation="0.000000">97.2</text>
+<text top="277" left="457" width="21" height="15" font="0" rotation="0.000000">96.7</text>
+<text top="277" left="516" width="21" height="15" font="0" rotation="0.000000">97.2</text>
+<text top="277" left="578" width="21" height="15" font="0" rotation="0.000000">96.9</text>
+<text top="277" left="641" width="21" height="15" font="0" rotation="0.000000">99.0</text>
+<text top="277" left="748" width="21" height="15" font="0" rotation="0.000000">74.2</text>
+<text top="277" left="799" width="21" height="15" font="0" rotation="0.000000">73.6</text>
+<text top="291" left="174" width="36" height="15" font="0" rotation="0.000000">HTNV</text>
+<text top="291" left="258" width="21" height="15" font="0" rotation="0.000000">82.9</text>
+<text top="291" left="328" width="21" height="15" font="0" rotation="0.000000">82.9</text>
+<text top="291" left="390" width="21" height="15" font="0" rotation="0.000000">83.4</text>
+<text top="291" left="457" width="21" height="15" font="0" rotation="0.000000">83.2</text>
+<text top="291" left="516" width="21" height="15" font="0" rotation="0.000000">82.5</text>
+<text top="291" left="578" width="21" height="15" font="0" rotation="0.000000">82.2</text>
+<text top="291" left="641" width="21" height="15" font="0" rotation="0.000000">82.7</text>
+<text top="291" left="698" width="21" height="15" font="0" rotation="0.000000">82.7</text>
+<text top="291" left="799" width="21" height="15" font="0" rotation="0.000000">73.9</text>
+<text top="304" left="174" width="34" height="15" font="0" rotation="0.000000">SEOV</text>
+<text top="304" left="258" width="21" height="15" font="0" rotation="0.000000">80.8</text>
+<text top="304" left="328" width="21" height="15" font="0" rotation="0.000000">80.8</text>
+<text top="304" left="390" width="21" height="15" font="0" rotation="0.000000">81.3</text>
+<text top="304" left="457" width="21" height="15" font="0" rotation="0.000000">80.8</text>
+<text top="304" left="516" width="21" height="15" font="0" rotation="0.000000">79.9</text>
+<text top="304" left="578" width="21" height="15" font="0" rotation="0.000000">79.9</text>
+<text top="304" left="641" width="21" height="15" font="0" rotation="0.000000">80.1</text>
+<text top="304" left="698" width="21" height="15" font="0" rotation="0.000000">80.1</text>
+<text top="304" left="748" width="21" height="15" font="0" rotation="0.000000">82.2</text>
+<text top="331" left="96" width="41" height="15" font="0" rotation="0.000000">3 NCR</text>
+<text top="331" left="174" width="53" height="15" font="0" rotation="0.000000">Esl/856Aa</text>
+<text top="331" left="322" width="18" height="15" font="0" rotation="0.000000">100</text>
+<text top="331" left="390" width="21" height="15" font="0" rotation="0.000000">85.3</text>
+<text top="331" left="457" width="21" height="15" font="0" rotation="0.000000">85.3</text>
+<text top="331" left="516" width="21" height="15" font="0" rotation="0.000000">83.6</text>
+<text top="331" left="578" width="21" height="15" font="0" rotation="0.000000">84.1</text>
+<text top="331" left="641" width="21" height="15" font="0" rotation="0.000000">84.4</text>
+<text top="331" left="698" width="21" height="15" font="0" rotation="0.000000">83.6</text>
+<text top="331" left="748" width="21" height="15" font="0" rotation="0.000000">51.3</text>
+<text top="331" left="799" width="21" height="15" font="0" rotation="0.000000">40.7</text>
+<text top="345" left="174" width="53" height="15" font="0" rotation="0.000000">Esl/862Aa</text>
+<text top="345" left="390" width="21" height="15" font="0" rotation="0.000000">85.3</text>
+<text top="345" left="457" width="21" height="15" font="0" rotation="0.000000">85.3</text>
+<text top="345" left="516" width="21" height="15" font="0" rotation="0.000000">83.6</text>
+<text top="345" left="578" width="21" height="15" font="0" rotation="0.000000">84.1</text>
+<text top="345" left="641" width="21" height="15" font="0" rotation="0.000000">84.4</text>
+<text top="345" left="698" width="21" height="15" font="0" rotation="0.000000">83.6</text>
+<text top="345" left="748" width="21" height="15" font="0" rotation="0.000000">51.3</text>
+<text top="345" left="799" width="21" height="15" font="0" rotation="0.000000">40.7</text>
+<text top="358" left="174" width="50" height="15" font="0" rotation="0.000000">Kur/53Aa</text>
+<text top="358" left="451" width="18" height="15" font="0" rotation="0.000000">100</text>
+<text top="358" left="516" width="21" height="15" font="0" rotation="0.000000">89.0</text>
+<text top="358" left="578" width="21" height="15" font="0" rotation="0.000000">90.0</text>
+<text top="358" left="641" width="21" height="15" font="0" rotation="0.000000">91.8</text>
+<text top="358" left="698" width="21" height="15" font="0" rotation="0.000000">90.3</text>
+<text top="358" left="748" width="21" height="15" font="0" rotation="0.000000">53.7</text>
+<text top="358" left="799" width="21" height="15" font="0" rotation="0.000000">40.6</text>
+<text top="372" left="174" width="50" height="15" font="0" rotation="0.000000">Kur/44Aa</text>
+<text top="372" left="516" width="21" height="15" font="0" rotation="0.000000">89.0</text>
+<text top="372" left="578" width="21" height="15" font="0" rotation="0.000000">90.0</text>
+<text top="372" left="641" width="21" height="15" font="0" rotation="0.000000">91.8</text>
+<text top="372" left="698" width="21" height="15" font="0" rotation="0.000000">90.3</text>
+<text top="372" left="748" width="21" height="15" font="0" rotation="0.000000">53.7</text>
+<text top="372" left="799" width="21" height="15" font="0" rotation="0.000000">40.6</text>
+<text top="385" left="174" width="45" height="15" font="0" rotation="0.000000">Saa/160v</text>
+<text top="385" left="578" width="21" height="15" font="0" rotation="0.000000">98.7</text>
+<text top="385" left="641" width="21" height="15" font="0" rotation="0.000000">89.6</text>
+<text top="385" left="698" width="21" height="15" font="0" rotation="0.000000">89.9</text>
+<text top="385" left="748" width="21" height="15" font="0" rotation="0.000000">53.6</text>
+<text top="385" left="799" width="21" height="15" font="0" rotation="0.000000">40.6</text>
+<text top="399" left="174" width="49" height="15" font="0" rotation="0.000000">Saa/90Aa</text>
+<text top="399" left="641" width="21" height="15" font="0" rotation="0.000000">90.2</text>
+<text top="399" left="698" width="21" height="15" font="0" rotation="0.000000">89.9</text>
+<text top="399" left="748" width="21" height="15" font="0" rotation="0.000000">53.8</text>
+<text top="399" left="799" width="21" height="15" font="0" rotation="0.000000">40.6</text>
+<text top="412" left="174" width="51" height="15" font="0" rotation="0.000000">Esl/400Af</text>
+<text top="412" left="698" width="21" height="15" font="0" rotation="0.000000">96.6</text>
+<text top="412" left="748" width="21" height="15" font="0" rotation="0.000000">54.4</text>
+<text top="412" left="799" width="21" height="15" font="0" rotation="0.000000">40.1</text>
+<text top="426" left="174" width="33" height="15" font="0" rotation="0.000000">Slo/Af</text>
+<text top="426" left="748" width="21" height="15" font="0" rotation="0.000000">54.7</text>
+<text top="426" left="799" width="21" height="15" font="0" rotation="0.000000">39.7</text>
+<text top="439" left="174" width="36" height="15" font="0" rotation="0.000000">HTNV</text>
+<text top="439" left="799" width="21" height="15" font="0" rotation="0.000000">46.3</text>
+<text top="453" left="174" width="34" height="15" font="0" rotation="0.000000">SEOV</text>
+<text top="476" left="89" width="4" height="8" font="14" rotation="0.000000">a</text>
+<text top="476" left="96" width="730" height="13" font="6" rotation="0.000000">The identity values were calculated by the Clustal method. The percentage differences for nucleotide (above the diagonal) and amino acid (below the diagonal)</text>
+<text top="488" left="78" width="747" height="13" font="6" rotation="0.000000">sequences are presented. Strain name abbreviations: Esl/856Aa, DOBV/Esl/856Aa/97; Esl/862Aa, DOBV/Esl/862Aa/97; Kur/53Aa, DOBV/Kurkino/53Aa/97; Kur/</text>
+<text top="500" left="78" width="747" height="13" font="6" rotation="0.000000">44Aa, DOBV/Kurkino/44Aa/97; Saa/160v, DOBV/Saaremaa/160v; Saa/90Aa, DOBV/Saaremaa/90Aa/97; Esl/400Af, DOBV/Esl/400Af/98; Slo/Af, DOBV prototype</text>
+<text top="512" left="78" width="515" height="13" font="6" rotation="0.000000">strain. HTNV strain 76-118 and SEOV strain SR11 were used. For sequence references see the legend to Fig. 1.</text>
+<text top="79" left="78" width="9" height="15" font="0" rotation="0.000000">V</text>
+<text top="82" left="87" width="13" height="11" font="1" rotation="0.000000">OL</text>
+<text top="79" left="101" width="50" height="15" font="0" rotation="0.000000">. 77, 2003</text>
+<text top="79" left="744" width="42" height="15" font="0" rotation="0.000000">NOTES</text>
+<text top="79" left="807" width="18" height="15" font="0" rotation="0.000000">805</text>
+<paths n="4">
+   <line bbox="78.264,135.549,825.226,135.549"  />
+
+   <line bbox="78.264,471.924,825.226,471.924"  />
+
+   <line bbox="245.084,157.299,825.226,157.299"  />
+
+   <line bbox="78.264,178.299,825.226,178.299"  />
+</paths>
+</page>
+<page number="3" position="absolute" top="0" left="0" width="904" height="1201" rotation="0.000000">
+<img x="355" y="482" originalWidth="1647" originalHeight="1200" width="592.726050" height="432.000000"/>
+<text top="114" left="465" width="360" height="17" font="11" rotation="0.000000">structed from the data sets. The values at the tree branches</text>
+<text top="131" left="465" width="360" height="17" font="11" rotation="0.000000">represent the PUZZLE support values (Fig. 1). The phylogeny</text>
+<text top="148" left="465" width="360" height="17" font="11" rotation="0.000000">of complete S segment nucleotide sequences from the DOBV</text>
+<text top="164" left="465" width="360" height="17" font="11" rotation="0.000000">strains indicates that central European DOBV-Aa strains form</text>
+<text top="181" left="465" width="360" height="17" font="11" rotation="0.000000">a well-supported monophyletic group with the Russian</text>
+<text top="198" left="465" width="360" height="17" font="11" rotation="0.000000">Kurkino-Aa strains whereas the strain Esl/400Af forms a</text>
+<text top="215" left="465" width="360" height="17" font="11" rotation="0.000000">monophyletic group together with Slo/Af. With use of the</text>
+<text top="231" left="465" width="360" height="17" font="11" rotation="0.000000">complete S segment sequence for analysis, the PUZZLE sup-</text>
+<text top="248" left="465" width="360" height="17" font="11" rotation="0.000000">port for position of the Saaremaa-Aa strains within the tree</text>
+<text top="265" left="465" width="360" height="17" font="11" rotation="0.000000">was slightly below the 70% threshold limit. Therefore, we re-</text>
+<text top="281" left="465" width="360" height="17" font="11" rotation="0.000000">peated the analysis on the basis of ORF nucleotide sequences</text>
+<text top="298" left="465" width="360" height="17" font="11" rotation="0.000000">(Fig. 1, upper right) and amino acid sequences of the N pro-</text>
+<text top="315" left="465" width="360" height="17" font="11" rotation="0.000000">teins (data not shown). These analyses unambiguously group</text>
+<text top="332" left="465" width="360" height="17" font="11" rotation="0.000000">Saaremaa-Aa sequences together with the DOBV-Af strains</text>
+<text top="348" left="465" width="360" height="17" font="11" rotation="0.000000">and well apart from the central European and Russian</text>
+<text top="365" left="465" width="360" height="17" font="11" rotation="0.000000">DOBV-Aa lineages. This shows that the S segment of Saare-</text>
+<text top="382" left="465" width="279" height="17" font="11" rotation="0.000000">maa-Aa strains is related to the S segment of</text>
+<text top="382" left="750" width="9" height="17" font="7" rotation="0.000000">A</text>
+<text top="382" left="759" width="3" height="17" font="11" rotation="0.000000">.</text>
+<text top="382" left="769" width="52" height="17" font="7" rotation="0.000000">flavicollis</text>
+<text top="382" left="821" width="4" height="17" font="11" rotation="0.000000">-</text>
+<text top="398" left="465" width="360" height="17" font="11" rotation="0.000000">derived DOBV strains. There are also five amino acid variable</text>
+<text top="415" left="465" width="360" height="17" font="11" rotation="0.000000">sites in the N protein wherein the Saaremaa-Aa strains encode</text>
+<text top="432" left="465" width="360" height="17" font="11" rotation="0.000000">the same amino acid as do Esl/400Af and/or Slo/Af, in contrast</text>
+<text top="448" left="465" width="360" height="17" font="11" rotation="0.000000">to the central European and Russian DOBV-Aa lineage (data</text>
+<text top="465" left="465" width="69" height="17" font="11" rotation="0.000000">not shown).</text>
+<text top="954" left="90" width="735" height="15" font="0" rotation="0.000000">FIG. 1. Phylogenetic ML trees from the available complete S segment nucleotide sequences of different members of the DOBV lineage and</text>
+<text top="968" left="78" width="747" height="15" font="0" rotation="0.000000">further hantaviruses, computed with TREE-PUZZLE. The main tree is based on sequences of the complete S segments. The insert shows the</text>
+<text top="981" left="78" width="747" height="15" font="0" rotation="0.000000">subtree of the complete ORF sequences for the DOBV strains. The S segment sequences analyzed included DOBV/East Slovakia/856Aa/97 and</text>
+<text top="995" left="78" width="747" height="15" font="0" rotation="0.000000">DOBV/East Slovakia/862Aa/97 (accession numbers Aj269549 and Aj269550, respectively), DOBV/Kurkino/44Aa/98 and DOBV/Kurkino/53Aa/98</text>
+<text top="1008" left="78" width="747" height="15" font="0" rotation="0.000000">(Aj131672 and Aj131673, respectively), DOBV/Saaremaa/160v and DOBV/Saaremaa/90Aa/97 (Aj009773 and Aj009775, respectively), HTNV</text>
+<text top="1022" left="78" width="747" height="15" font="0" rotation="0.000000">strain 76-118 (M14626), HTNV strain 84FLi (AY017064), HTNV strain LR1 (AF288294), HTNV strain AH09 (AF285264), SEOV strain SR11</text>
+<text top="1035" left="78" width="747" height="15" font="0" rotation="0.000000">(M34881), SEOV strain L99 (AF288299), SEOV strain Z37 (AF187082), SEOV strain Gou3 (AB027522), PUUV strain Vranica-Ha¨llna¨s</text>
+<text top="1049" left="78" width="747" height="15" font="0" rotation="0.000000">(U14137), TULV strain Moravia/5302v/95 (Z69991), SNV strain NM H10 (L25784), and El Moro Canyon hantavirus (ELMCV) strain RM-97</text>
+<text top="1062" left="78" width="747" height="15" font="0" rotation="0.000000">(U11427). The S segment sequence of DOBV/Slovenia (2) (L41916) was proven by sequencing of DOBV obtained from cell culture supernatant</text>
+<text top="1076" left="78" width="747" height="15" font="0" rotation="0.000000">of Vero E6 cells, revealing inversion of two nucleotides at position 1035/1036 (GT instead of TG), resulting in an amino acid exchange (Val instead</text>
+<text top="1089" left="78" width="40" height="15" font="0" rotation="0.000000">of Cys).</text>
+<text top="115" left="80" width="356" height="15" font="0" rotation="0.000000">TABLE 2. M segment nucleotide and amino acid percent identities</text>
+<text top="129" left="158" width="196" height="15" font="0" rotation="0.000000">of DOBV strains, HTNV, and SEOV</text>
+<text top="128" left="354" width="5" height="9" font="13" rotation="0.000000">a</text>
+<text top="157" left="80" width="39" height="13" font="6" rotation="0.000000">Segment</text>
+<text top="169" left="83" width="33" height="13" font="6" rotation="0.000000">portion</text>
+<text top="163" left="139" width="27" height="13" font="6" rotation="0.000000">Strain</text>
+<text top="153" left="259" width="103" height="13" font="6" rotation="0.000000">% Identity with strain:</text>
+<text top="174" left="184" width="253" height="13" font="6" rotation="0.000000">Esl/862Aa Saa/160v Esl/400Af Slo/Af HTNV SEOV</text>
+<text top="196" left="78" width="26" height="15" font="0" rotation="0.000000">ORF</text>
+<text top="196" left="126" width="53" height="15" font="0" rotation="0.000000">Esl/862Aa</text>
+<text top="196" left="246" width="21" height="15" font="0" rotation="0.000000">87.3</text>
+<text top="196" left="295" width="21" height="15" font="0" rotation="0.000000">82.6</text>
+<text top="196" left="338" width="21" height="15" font="0" rotation="0.000000">82.5</text>
+<text top="196" left="375" width="21" height="15" font="0" rotation="0.000000">70.5</text>
+<text top="196" left="412" width="21" height="15" font="0" rotation="0.000000">70.8</text>
+<text top="210" left="126" width="45" height="15" font="0" rotation="0.000000">Saa/160v</text>
+<text top="210" left="197" width="21" height="15" font="0" rotation="0.000000">96.1</text>
+<text top="210" left="295" width="21" height="15" font="0" rotation="0.000000">82.2</text>
+<text top="210" left="338" width="21" height="15" font="0" rotation="0.000000">82.4</text>
+<text top="210" left="375" width="21" height="15" font="0" rotation="0.000000">71.2</text>
+<text top="210" left="412" width="21" height="15" font="0" rotation="0.000000">70.6</text>
+<text top="223" left="126" width="51" height="15" font="0" rotation="0.000000">Esl/400Af</text>
+<text top="223" left="197" width="21" height="15" font="0" rotation="0.000000">94.1</text>
+<text top="223" left="246" width="21" height="15" font="0" rotation="0.000000">94.3</text>
+<text top="223" left="338" width="21" height="15" font="0" rotation="0.000000">93.0</text>
+<text top="223" left="375" width="21" height="15" font="0" rotation="0.000000">71.0</text>
+<text top="223" left="412" width="21" height="15" font="0" rotation="0.000000">70.6</text>
+<text top="237" left="126" width="33" height="15" font="0" rotation="0.000000">Slo/Af</text>
+<text top="237" left="197" width="21" height="15" font="0" rotation="0.000000">94.1</text>
+<text top="237" left="246" width="21" height="15" font="0" rotation="0.000000">94.5</text>
+<text top="237" left="295" width="21" height="15" font="0" rotation="0.000000">99.2</text>
+<text top="237" left="375" width="21" height="15" font="0" rotation="0.000000">70.8</text>
+<text top="237" left="412" width="21" height="15" font="0" rotation="0.000000">70.7</text>
+<text top="250" left="126" width="36" height="15" font="0" rotation="0.000000">HTNV</text>
+<text top="250" left="197" width="21" height="15" font="0" rotation="0.000000">77.0</text>
+<text top="250" left="246" width="21" height="15" font="0" rotation="0.000000">76.9</text>
+<text top="250" left="295" width="21" height="15" font="0" rotation="0.000000">77.7</text>
+<text top="250" left="338" width="21" height="15" font="0" rotation="0.000000">77.5</text>
+<text top="250" left="412" width="21" height="15" font="0" rotation="0.000000">72.3</text>
+<text top="264" left="126" width="34" height="15" font="0" rotation="0.000000">SEOV</text>
+<text top="264" left="197" width="21" height="15" font="0" rotation="0.000000">76.8</text>
+<text top="264" left="246" width="21" height="15" font="0" rotation="0.000000">76.4</text>
+<text top="264" left="295" width="21" height="15" font="0" rotation="0.000000">77.3</text>
+<text top="264" left="338" width="21" height="15" font="0" rotation="0.000000">77.5</text>
+<text top="264" left="375" width="21" height="15" font="0" rotation="0.000000">76.8</text>
+<text top="291" left="78" width="100" height="15" font="0" rotation="0.000000">3 NCR Esl/862Aa</text>
+<text top="291" left="246" width="21" height="15" font="0" rotation="0.000000">79.7</text>
+<text top="291" left="295" width="21" height="15" font="0" rotation="0.000000">62.5</text>
+<text top="291" left="338" width="21" height="15" font="0" rotation="0.000000">63.1</text>
+<text top="291" left="375" width="21" height="15" font="0" rotation="0.000000">37.8</text>
+<text top="291" left="412" width="21" height="15" font="0" rotation="0.000000">44.2</text>
+<text top="304" left="126" width="45" height="15" font="0" rotation="0.000000">Saa/160v</text>
+<text top="304" left="295" width="21" height="15" font="0" rotation="0.000000">62.0</text>
+<text top="304" left="338" width="21" height="15" font="0" rotation="0.000000">63.6</text>
+<text top="304" left="375" width="21" height="15" font="0" rotation="0.000000">41.3</text>
+<text top="304" left="412" width="21" height="15" font="0" rotation="0.000000">44.2</text>
+<text top="318" left="126" width="51" height="15" font="0" rotation="0.000000">Esl/400Af</text>
+<text top="318" left="338" width="21" height="15" font="0" rotation="0.000000">91.9</text>
+<text top="318" left="375" width="21" height="15" font="0" rotation="0.000000">40.5</text>
+<text top="318" left="412" width="21" height="15" font="0" rotation="0.000000">43.2</text>
+<text top="331" left="126" width="33" height="15" font="0" rotation="0.000000">Slo/Af</text>
+<text top="331" left="375" width="21" height="15" font="0" rotation="0.000000">42.3</text>
+<text top="331" left="412" width="21" height="15" font="0" rotation="0.000000">44.5</text>
+<text top="345" left="126" width="36" height="15" font="0" rotation="0.000000">HTNV</text>
+<text top="345" left="412" width="21" height="15" font="0" rotation="0.000000">39.1</text>
+<text top="358" left="126" width="34" height="15" font="0" rotation="0.000000">SEOV</text>
+<text top="381" left="89" width="4" height="8" font="14" rotation="0.000000">a</text>
+<text top="382" left="96" width="343" height="13" font="6" rotation="0.000000">The identity values were calculated by the Clustal method. The percentage</text>
+<text top="394" left="78" width="360" height="13" font="6" rotation="0.000000">differences for nucleotide (above the diagonal) and amino acid (below the diag-</text>
+<text top="406" left="78" width="360" height="13" font="6" rotation="0.000000">onal) sequences are presented. Strain name abbreviations are given in Table 1.</text>
+<text top="418" left="78" width="225" height="13" font="6" rotation="0.000000">For sequence references see the legend to Fig. 2.</text>
+<text top="79" left="78" width="18" height="15" font="0" rotation="0.000000">806</text>
+<text top="79" left="123" width="42" height="15" font="0" rotation="0.000000">NOTES</text>
+<text top="79" left="777" width="21" height="15" font="0" rotation="0.000000">J. V</text>
+<text top="82" left="799" width="23" height="11" font="1" rotation="0.000000">IROL</text>
+<text top="79" left="822" width="3" height="15" font="0" rotation="0.000000">.</text>
+<paths n="4">
+   <line bbox="78.255,149.049,438.239,149.049"  />
+
+   <line bbox="78.255,377.424,438.239,377.424"  />
+
+   <line bbox="183.308,170.799,438.239,170.799"  />
+
+   <line bbox="78.255,191.799,438.239,191.799"  />
+</paths>
+</page>
+<page number="4" position="absolute" top="0" left="0" width="904" height="1201" rotation="0.000000">
+<img x="550" y="67" originalWidth="1542" originalHeight="1200" width="555.102450" height="432.000000"/>
+<text top="741" left="92" width="347" height="17" font="11" rotation="0.000000">Figure 2 shows the phylogenetic tree based on the available</text>
+<text top="758" left="78" width="360" height="17" font="11" rotation="0.000000">complete M segment sequences of DOBV strains. In addition</text>
+<text top="774" left="78" width="360" height="17" font="11" rotation="0.000000">to our two newly determined complete sequences, Esl/862Aa</text>
+<text top="791" left="78" width="360" height="17" font="11" rotation="0.000000">and Esl/400Af, only two other complete M segment sequences</text>
+<text top="807" left="78" width="360" height="17" font="11" rotation="0.000000">were available for analysis. However, the results clearly showed</text>
+<text top="824" left="78" width="360" height="17" font="11" rotation="0.000000">that the Esl/862Aa strain formed one well-supported group</text>
+<text top="840" left="78" width="360" height="17" font="11" rotation="0.000000">with Saa/160v whereas the strain Esl/400Af demonstrated, as</text>
+<text top="857" left="78" width="317" height="17" font="11" rotation="0.000000">expected, a close relationship to the Slo/Af prototype.</text>
+<text top="873" left="92" width="347" height="17" font="11" rotation="0.000000">The difference in the phylogenetic placement of Saare-</text>
+<text top="890" left="78" width="360" height="17" font="11" rotation="0.000000">maa-Aa in respect to S and M segments shows that this virus</text>
+<text top="906" left="78" width="360" height="17" font="11" rotation="0.000000">was involved in reassortment processes during its evolution; its</text>
+<text top="923" left="78" width="360" height="17" font="11" rotation="0.000000">S segment is more closely related to DOBV-Af whereas its M</text>
+<text top="939" left="78" width="360" height="17" font="11" rotation="0.000000">segment resembles the central European strain Esl/862Aa. To</text>
+<text top="956" left="78" width="360" height="17" font="11" rotation="0.000000">ascertain whether this contradiction of S and M segment-de-</text>
+<text top="972" left="78" width="360" height="17" font="11" rotation="0.000000">rived trees could have been caused simply by the absence of</text>
+<text top="989" left="78" width="360" height="17" font="11" rotation="0.000000">additional sequences (e.g., Kurkino-Aa strains) in the M but</text>
+<text top="1005" left="78" width="360" height="17" font="11" rotation="0.000000">not S segment ML analysis, we repeated the S segment analysis</text>
+<text top="1022" left="78" width="360" height="17" font="11" rotation="0.000000">without involving sequences of Kurkino-Aa strains; however,</text>
+<text top="1038" left="78" width="360" height="17" font="11" rotation="0.000000">the phylogenetic grouping of the S segments of Saaremaa-Aa</text>
+<text top="1055" left="78" width="324" height="17" font="11" rotation="0.000000">with DOBV-Af remained unchanged (data not shown).</text>
+<text top="1071" left="92" width="347" height="17" font="11" rotation="0.000000">Natural genetic reassortment of genomic RNA segments has</text>
+<text top="1088" left="78" width="360" height="17" font="11" rotation="0.000000">been also found within the SNV species (7, 9). Moreover,</text>
+<text top="741" left="465" width="360" height="17" font="11" rotation="0.000000">genetic reassortants involving S and M segments were detected</text>
+<text top="758" left="465" width="360" height="17" font="11" rotation="0.000000">after mixed infections in tissue culture by using two distinguish-</text>
+<text top="774" left="465" width="360" height="17" font="11" rotation="0.000000">able strains of SNV. One virus reassortant was observed also</text>
+<text top="791" left="465" width="360" height="17" font="11" rotation="0.000000">after mixed infections between SNV and genetically more dis-</text>
+<text top="807" left="465" width="360" height="17" font="11" rotation="0.000000">tant Black Creek Canal virus (17). This together with our own</text>
+<text top="824" left="465" width="360" height="17" font="11" rotation="0.000000">results indicates that genetic reassortment is not an uncommon</text>
+<text top="840" left="465" width="185" height="17" font="11" rotation="0.000000">process in hantavirus evolution.</text>
+<text top="858" left="479" width="142" height="15" font="9" rotation="0.000000">Recombination analysis.</text>
+<text top="857" left="625" width="200" height="17" font="11" rotation="0.000000">To study more precisely the evolu-</text>
+<text top="873" left="465" width="360" height="17" font="11" rotation="0.000000">tionary history of the two genomic segments, we performed</text>
+<text top="890" left="465" width="360" height="17" font="11" rotation="0.000000">bootscan analyses on the alignments of the S and M segment</text>
+<text top="906" left="465" width="360" height="17" font="11" rotation="0.000000">ORFs for the viruses Esl/400Af, Esl/856Aa, and Esl/862Aa.</text>
+<text top="923" left="465" width="360" height="17" font="11" rotation="0.000000">Bootscan analysis (18) was performed with Stuart Ray's Sim-</text>
+<text top="939" left="465" width="360" height="17" font="11" rotation="0.000000">Plot 2.5 (10) in combination with the PHYLIP package</text>
+<text top="956" left="465" width="360" height="17" font="11" rotation="0.000000">(version 3.5c; J. Felsenstein, Seattle, Wash., 1993). As the</text>
+<text top="972" left="465" width="360" height="17" font="11" rotation="0.000000">underlying phylogeny reconstruction algorithm we used neigh-</text>
+<text top="989" left="465" width="360" height="17" font="11" rotation="0.000000">bor joining (NEIGHBOR, DNADIST) under the Kimura</text>
+<text top="1005" left="465" width="360" height="17" font="11" rotation="0.000000">model with a Ts/Tv ratio of 2.0 for the distances. For subse-</text>
+<text top="1022" left="465" width="360" height="17" font="11" rotation="0.000000">quent phylogenetic analysis the alignments were split accord-</text>
+<text top="1038" left="465" width="360" height="17" font="11" rotation="0.000000">ing to the bootscan diagrams at cross points of a 65% thresh-</text>
+<text top="1055" left="465" width="360" height="17" font="11" rotation="0.000000">old, even if only one curve dropped down while another</text>
+<text top="1071" left="465" width="360" height="17" font="11" rotation="0.000000">one did not come up. The subalignments were tested for phy-</text>
+<text top="1088" left="465" width="360" height="17" font="11" rotation="0.000000">logenetic information with likelihood mapping and then used</text>
+<text top="557" left="90" width="735" height="15" font="0" rotation="0.000000">FIG. 2. Phylogenetic ML tree of the available complete M segment nucleotide sequences of different members of the DOBV lineage and</text>
+<text top="570" left="78" width="747" height="15" font="0" rotation="0.000000">further hantaviruses computed with TREE-PUZZLE. The M segment sequences included HTNV strain 76-118 (M14627), HTNV strain 84FLi</text>
+<text top="584" left="78" width="747" height="15" font="0" rotation="0.000000">(AF366569), HTNV strain LR1 (AF288293), HTNV strain AH09 (AF285265), SEOV strain SR11 (M34882), SEOV strain L99 (AF035833),</text>
+<text top="597" left="78" width="747" height="15" font="0" rotation="0.000000">SEOV strain Z37 (AF187081), SEOV strain Gou3 (AB027521), PUUV strain Vranica-Ha¨llna¨s (U14136), TULV strain Moravia/5302v/95</text>
+<text top="611" left="78" width="747" height="15" font="0" rotation="0.000000">(Z69993), SNV strain NM H10 (L25783), and El Moro Canyon virus (ELMCV) strain RM-97 (U26828). The M segment sequence of DOBV/</text>
+<text top="624" left="78" width="747" height="15" font="0" rotation="0.000000">Saaremaa/160v (12) (Aj009774) was corrected by nucleotide exchanges found by resequencing of plasmids M1, M2, and M3, provided by those</text>
+<text top="638" left="78" width="443" height="15" font="0" rotation="0.000000">authors (12); we found two frameshift mutations at nucleotide positions 2630 ( C;</text>
+<text top="638" left="537" width="123" height="15" font="0" rotation="0.000000">1) and 2638/2639 ( A;</text>
+<text top="638" left="675" width="151" height="15" font="0" rotation="0.000000">1) and nucleotide exchanges</text>
+<text top="651" left="78" width="747" height="15" font="0" rotation="0.000000">resulting in amino acid exchanges (nt 471, C instead of T [C/T], Thr instead of Met [Thr/Met]; position 2121, C/T, Pro/Leu; position 2675, A/C,</text>
+<text top="665" left="78" width="747" height="15" font="0" rotation="0.000000">Lys/Gln; position 2679, A/T, Asp/Val; position 2712, A/C, His/Pro; and position 2954, G/A, Val/Ile). The M segment sequence of DOBV/Slovenia</text>
+<text top="678" left="78" width="747" height="15" font="0" rotation="0.000000">(2) (L33685) was corrected according to sequencing data obtained from DOBV/Slovenia from cell culture supernatant of Vero E6 cells; we have</text>
+<text top="692" left="78" width="747" height="15" font="0" rotation="0.000000">found several nucleotide exchanges causing amino acid exchanges (nucleotide position 2777, G/A, Gly/Arg; position 2861: T/C, Trp/Arg; position</text>
+<text top="705" left="78" width="411" height="15" font="0" rotation="0.000000">3181, T/A, His/Gln) and an insertion of TTT (Phe) between nt 3381 and 3382.</text>
+<text top="79" left="78" width="9" height="15" font="0" rotation="0.000000">V</text>
+<text top="82" left="87" width="13" height="11" font="1" rotation="0.000000">OL</text>
+<text top="79" left="101" width="50" height="15" font="0" rotation="0.000000">. 77, 2003</text>
+<text top="79" left="744" width="42" height="15" font="0" rotation="0.000000">NOTES</text>
+<text top="79" left="807" width="18" height="15" font="0" rotation="0.000000">807</text>
+</page>
+<page number="5" position="absolute" top="0" left="0" width="904" height="1201" rotation="0.000000">
+<img x="550" y="67" originalWidth="2067" originalHeight="1233" width="744.099900" height="444.000000"/>
+<text top="692" left="78" width="360" height="17" font="11" rotation="0.000000">to reconstruct ML phylogenies by using quartet puzzling (20,</text>
+<text top="708" left="78" width="22" height="17" font="11" rotation="0.000000">24).</text>
+<text top="725" left="92" width="347" height="17" font="11" rotation="0.000000">In the analysis of the M segment (Fig. 3), the main DOBV</text>
+<text top="741" left="78" width="360" height="17" font="11" rotation="0.000000">topology divided into Esl/862Aa with Saa/160v on the one hand</text>
+<text top="758" left="78" width="360" height="17" font="11" rotation="0.000000">and Slo/Af with Esl/400Af on the other yielding high support</text>
+<text top="774" left="78" width="360" height="17" font="11" rotation="0.000000">(92 to 100%). But in two regions of the ORF this topology</text>
+<text top="791" left="78" width="360" height="17" font="11" rotation="0.000000">changed. While this change had moderate support (62%) in</text>
+<text top="807" left="78" width="360" height="17" font="11" rotation="0.000000">the area of nt 1971 to 2211, the 81% support in the area of nt</text>
+<text top="824" left="78" width="360" height="17" font="11" rotation="0.000000">810 to 1059 was high. Homologous recombination events in the</text>
+<text top="840" left="78" width="360" height="17" font="11" rotation="0.000000">natural history of DOBV could explain the creation of this</text>
+<text top="857" left="78" width="360" height="17" font="11" rotation="0.000000">significant nucleotide sequence exchange. However, the phy-</text>
+<text top="873" left="78" width="360" height="17" font="11" rotation="0.000000">logenetic analysis of this recombination event might be influ-</text>
+<text top="890" left="78" width="360" height="17" font="11" rotation="0.000000">enced by the short extent (249 bp) of the region. Hence, this</text>
+<text top="906" left="78" width="360" height="17" font="11" rotation="0.000000">issue needs to be further evaluated, taking into account bio-</text>
+<text top="923" left="78" width="360" height="17" font="11" rotation="0.000000">logical properties of M segment gene products which are cur-</text>
+<text top="939" left="78" width="199" height="17" font="11" rotation="0.000000">rently not very well characterized.</text>
+<text top="956" left="92" width="347" height="17" font="11" rotation="0.000000">The availability of more sequenced virus strains would be</text>
+<text top="972" left="78" width="360" height="17" font="11" rotation="0.000000">helpful to further elucidate the scenario of recombination pro-</text>
+<text top="989" left="78" width="360" height="17" font="11" rotation="0.000000">cesses in the phylogenetic development of strains of DOBV.</text>
+<text top="1005" left="78" width="360" height="17" font="11" rotation="0.000000">Nevertheless, the recombination event in DOBV evolution,</text>
+<text top="1022" left="78" width="360" height="17" font="11" rotation="0.000000">after similar findings for Tula virus (TULV) in its natural</text>
+<text top="1038" left="78" width="360" height="17" font="11" rotation="0.000000">evolution (21) and under in vitro conditions (15), offers an-</text>
+<text top="1055" left="78" width="360" height="17" font="11" rotation="0.000000">other example of natural homologous recombination in the</text>
+<text top="1071" left="78" width="150" height="17" font="11" rotation="0.000000">evolution of hantaviruses.</text>
+<text top="1089" left="92" width="347" height="15" font="9" rotation="0.000000">Evolution of DOBV and the problem of hantavirus species</text>
+<text top="693" left="465" width="59" height="15" font="9" rotation="0.000000">definition.</text>
+<text top="692" left="531" width="294" height="17" font="11" rotation="0.000000">Since DOBV-Af and DOBV-Aa seem to exhibit</text>
+<text top="708" left="465" width="360" height="17" font="11" rotation="0.000000">stable association with two different host species, it has been</text>
+<text top="725" left="465" width="360" height="17" font="11" rotation="0.000000">proposed elsewhere to consider them as different virus species</text>
+<text top="741" left="465" width="360" height="17" font="11" rotation="0.000000">and to take the only available virus isolate of the DOBV-Aa</text>
+<text top="758" left="465" width="360" height="17" font="11" rotation="0.000000">group, Saa/160v, as the prototype of the new virus species,</text>
+<text top="774" left="465" width="360" height="17" font="11" rotation="0.000000">called Saaremaa virus (13, 16). According to the species de-</text>
+<text top="791" left="465" width="183" height="17" font="11" rotation="0.000000">marcation criteria in the genus</text>
+<text top="791" left="653" width="62" height="17" font="7" rotation="0.000000">Hantavirus</text>
+<text top="791" left="715" width="110" height="17" font="11" rotation="0.000000">,asdefined by the</text>
+<text top="807" left="465" width="360" height="17" font="11" rotation="0.000000">International Committee on Taxonomy of Viruses (5), hanta-</text>
+<text top="824" left="465" width="297" height="17" font="11" rotation="0.000000">virus species have to meet the following essentials.</text>
+<text top="840" left="479" width="347" height="17" font="11" rotation="0.000000">(i) Species are found in a unique ecological niche, i.e., in a</text>
+<text top="857" left="465" width="360" height="17" font="11" rotation="0.000000">different primary rodent reservoir species or subspecies. This is</text>
+<text top="873" left="465" width="360" height="17" font="11" rotation="0.000000">the case for DOBV-Af versus DOBV-Aa. Our results pre-</text>
+<text top="890" left="465" width="360" height="17" font="11" rotation="0.000000">sented here demonstrate that the investigated DOBV strains</text>
+<text top="906" left="465" width="28" height="17" font="11" rotation="0.000000">from</text>
+<text top="906" left="499" width="9" height="17" font="7" rotation="0.000000">A</text>
+<text top="906" left="508" width="3" height="17" font="11" rotation="0.000000">.</text>
+<text top="906" left="517" width="52" height="17" font="7" rotation="0.000000">flavicollis</text>
+<text top="906" left="574" width="21" height="17" font="11" rotation="0.000000">and</text>
+<text top="906" left="601" width="9" height="17" font="7" rotation="0.000000">A</text>
+<text top="906" left="610" width="3" height="17" font="11" rotation="0.000000">.</text>
+<text top="906" left="619" width="44" height="17" font="7" rotation="0.000000">agrarius</text>
+<text top="906" left="668" width="157" height="17" font="11" rotation="0.000000">in Slovakia are clearly dif-</text>
+<text top="923" left="465" width="360" height="17" font="11" rotation="0.000000">ferent despite their coexistence in the same geographical place.</text>
+<text top="939" left="465" width="360" height="17" font="11" rotation="0.000000">On the other hand, the reassortment origin of Saaremaa-Aa</text>
+<text top="956" left="465" width="360" height="17" font="11" rotation="0.000000">strains indicates the possibility of genetic exchanges between</text>
+<text top="972" left="465" width="360" height="17" font="11" rotation="0.000000">members of the DOBV-Af and DOBV-Aa lineages. Obviously,</text>
+<text top="989" left="465" width="360" height="17" font="11" rotation="0.000000">the precondition for such events was the coinfection of the</text>
+<text top="1005" left="465" width="105" height="17" font="11" rotation="0.000000">same host animal.</text>
+<text top="1022" left="479" width="347" height="17" font="11" rotation="0.000000">(ii) Species exhibit at least a 7% difference in amino acid</text>
+<text top="1038" left="465" width="360" height="17" font="11" rotation="0.000000">identity on comparison of the complete GPC and N protein</text>
+<text top="1055" left="465" width="360" height="17" font="11" rotation="0.000000">sequences. As shown in Table 1, we found amino acid differ-</text>
+<text top="1071" left="465" width="360" height="17" font="11" rotation="0.000000">ences in the deduced N protein sequences within the</text>
+<text top="1088" left="465" width="360" height="17" font="11" rotation="0.000000">DOBV-Af and DOBV-Aa groups of between only 2.1 and</text>
+<text top="569" left="90" width="735" height="15" font="0" rotation="0.000000">FIG. 3. Recombination analysis for the M segment ORFs. The lower part shows the bootscan diagram with Esl/862Aa as query and the other</text>
+<text top="582" left="78" width="747" height="15" font="0" rotation="0.000000">viruses grouped into DOBV-Af, Saaremaa-Aa (Saa/160v), and HTNV. For clarity we removed the curves of SEOV, PUUV, TULV, El Moro</text>
+<text top="596" left="78" width="747" height="15" font="0" rotation="0.000000">Canyon virus, and SNV, which never exceeded values of 2.5%. The upper part shows the DOBV subtrees obtained from ML-based phylogenetic</text>
+<text top="609" left="78" width="747" height="15" font="0" rotation="0.000000">analysis with TREE-PUZZLE from the subalignments split at a 65% threshold in the bootscan diagram. At the branches we give the PUZZLE</text>
+<text top="623" left="78" width="747" height="15" font="0" rotation="0.000000">support values for the subtrees. Where neighboring subalignment resulted in the same tree topology, only one, with ranges of support values, is</text>
+<text top="636" left="78" width="747" height="15" font="0" rotation="0.000000">shown. The subalignments were tested for phylogenetic information by likelihood mapping (24). A window size of 200 nt, a step size of 10 nt, and</text>
+<text top="650" left="78" width="239" height="15" font="0" rotation="0.000000">500 bootstrap samples per window were used.</text>
+<text top="79" left="78" width="18" height="15" font="0" rotation="0.000000">808</text>
+<text top="79" left="123" width="42" height="15" font="0" rotation="0.000000">NOTES</text>
+<text top="79" left="777" width="21" height="15" font="0" rotation="0.000000">J. V</text>
+<text top="82" left="799" width="23" height="11" font="1" rotation="0.000000">IROL</text>
+<text top="79" left="822" width="3" height="15" font="0" rotation="0.000000">.</text>
+</page>
+<page number="6" position="absolute" top="0" left="0" width="904" height="1201" rotation="0.000000">
+	<fontspec id="15" size="8" family="Times" color="#231f20" isItalic="0"  isBold="0"  isOblique="0"  name="GFPAAL+Dutch801BT-Bold"/>
+	<fontspec id="16" size="8" family="Times" color="#231f20" isItalic="1"  isBold="0"  isOblique="0"  name="GFPAAA+Dutch801BT-Italic"/>
+<text top="114" left="78" width="360" height="17" font="11" rotation="0.000000">3.3%. Saaremaa-Aa shows an N protein sequence difference of</text>
+<text top="131" left="78" width="360" height="17" font="11" rotation="0.000000">2.8% from the DOBV-Af strains investigated. Since the Saare-</text>
+<text top="147" left="78" width="360" height="17" font="11" rotation="0.000000">maa-Aa strain carries a DOBV-Af-like S segment, it is not</text>
+<text top="164" left="78" width="360" height="17" font="11" rotation="0.000000">surprising that it exhibits higher similarities to the DOBV-Af</text>
+<text top="180" left="78" width="360" height="17" font="11" rotation="0.000000">strains than to the other DOBV-Aa strains (Table 1). In the</text>
+<text top="197" left="78" width="360" height="17" font="11" rotation="0.000000">putative GPC the amino acid differences between the</text>
+<text top="213" left="78" width="360" height="17" font="11" rotation="0.000000">DOBV-Af and DOBV-Aa groups have been found to be in the</text>
+<text top="230" left="78" width="183" height="17" font="11" rotation="0.000000">range of 5.5 to 5.9% (Table 2).</text>
+<text top="246" left="92" width="347" height="17" font="11" rotation="0.000000">(iii) Species show at least a fourfold difference in two-way</text>
+<text top="263" left="78" width="360" height="17" font="11" rotation="0.000000">cross-neutralization tests. By analysis of human serum samples</text>
+<text top="279" left="78" width="360" height="17" font="11" rotation="0.000000">from the Balkans (southeastern Europe) and Estonia (north-</text>
+<text top="296" left="78" width="360" height="17" font="11" rotation="0.000000">eastern Europe), Sjo¨lander et al. (3a) have shown that a ma-</text>
+<text top="312" left="78" width="360" height="17" font="11" rotation="0.000000">jority of the sera exhibited this typical titer difference with</text>
+<text top="329" left="78" width="360" height="17" font="11" rotation="0.000000">preference for the local virus (DOBV-Slovenia and Saaremaa,</text>
+<text top="345" left="78" width="360" height="17" font="11" rotation="0.000000">respectively); however, a substantial number of serum samples</text>
+<text top="362" left="78" width="360" height="17" font="11" rotation="0.000000">did not. The authors conclude that DOBV-Af and Saaremaa</text>
+<text top="378" left="78" width="360" height="17" font="11" rotation="0.000000">virus define unique hantavirus serotypes (3a). We have de-</text>
+<text top="395" left="78" width="360" height="17" font="11" rotation="0.000000">duced 72 amino acid exchanges from the glycoprotein (M)</text>
+<text top="411" left="78" width="360" height="17" font="11" rotation="0.000000">gene sequences of the virus isolates Slo/Af and Saa/160v (data</text>
+<text top="428" left="78" width="360" height="17" font="11" rotation="0.000000">not shown) which could lead to the distinct serological behav-</text>
+<text top="444" left="78" width="20" height="17" font="11" rotation="0.000000">ior.</text>
+<text top="461" left="92" width="347" height="17" font="11" rotation="0.000000">(iv) Species do not naturally form reassortants with other</text>
+<text top="477" left="78" width="360" height="17" font="11" rotation="0.000000">species. However, this was highly probably the case for the</text>
+<text top="494" left="78" width="360" height="17" font="11" rotation="0.000000">Saaremaa-Aa strains (see above). The occurrence of such re-</text>
+<text top="510" left="78" width="360" height="17" font="11" rotation="0.000000">assortment events between DOBV-Af and DOBV-Aa should</text>
+<text top="527" left="78" width="360" height="17" font="11" rotation="0.000000">be taken as one argument against the idea that Saaremaa-Aa is</text>
+<text top="543" left="78" width="108" height="17" font="11" rotation="0.000000">a separate species.</text>
+<text top="560" left="92" width="347" height="17" font="11" rotation="0.000000">The data demonstrate the phylogenetic relationship of</text>
+<text top="576" left="78" width="360" height="17" font="11" rotation="0.000000">DOBV members which are able to sympatrically coexist in</text>
+<text top="593" left="78" width="360" height="17" font="11" rotation="0.000000">different host species. However, the seemingly distinct DOBV</text>
+<text top="609" left="78" width="360" height="17" font="11" rotation="0.000000">clades are interacting in nature and affecting one another's</text>
+<text top="626" left="78" width="57" height="17" font="11" rotation="0.000000">evolution.</text>
+<text top="643" left="92" width="236" height="15" font="9" rotation="0.000000">Nucleotide sequence accession number.</text>
+<text top="642" left="333" width="105" height="17" font="11" rotation="0.000000">The sequences of</text>
+<text top="659" left="78" width="293" height="17" font="11" rotation="0.000000">the complete M segments of DOBV strains from</text>
+<text top="659" left="376" width="9" height="17" font="7" rotation="0.000000">A</text>
+<text top="659" left="385" width="3" height="17" font="11" rotation="0.000000">.</text>
+<text top="659" left="394" width="44" height="17" font="7" rotation="0.000000">agrarius</text>
+<text top="675" left="78" width="21" height="17" font="11" rotation="0.000000">and</text>
+<text top="675" left="105" width="9" height="17" font="7" rotation="0.000000">A</text>
+<text top="675" left="114" width="3" height="17" font="11" rotation="0.000000">.</text>
+<text top="675" left="122" width="52" height="17" font="7" rotation="0.000000">flavicollis</text>
+<text top="675" left="180" width="259" height="17" font="11" rotation="0.000000">from eastern Slovakia, DOBV/Esl/862Aa/97</text>
+<text top="692" left="78" width="360" height="17" font="11" rotation="0.000000">and DOBV/Esl/400Af/98, and of the complete S segment of</text>
+<text top="708" left="78" width="360" height="17" font="11" rotation="0.000000">DOBV/Esl/400Af/98 (the abbreviations stand for virus species/</text>
+<text top="725" left="78" width="360" height="17" font="11" rotation="0.000000">place of occurrence [eastern Slovakia]/number of the sample</text>
+<text top="741" left="78" width="360" height="17" font="11" rotation="0.000000">and animal species/year of detection), have been assigned</text>
+<text top="758" left="78" width="360" height="17" font="11" rotation="0.000000">EMBL accession numbers AY168578, AY168577, and</text>
+<text top="774" left="78" width="140" height="17" font="11" rotation="0.000000">AY168576, respectively.</text>
+<text top="809" left="90" width="348" height="15" font="0" rotation="0.000000">This work was supported by the Deutsche Forschungsgemeinschaft</text>
+<text top="822" left="78" width="360" height="15" font="0" rotation="0.000000">(grants Kr1293/2-2/2-3 and Vi160/3-2), Charite´ Medical School, Fonds</text>
+<text top="836" left="78" width="360" height="15" font="0" rotation="0.000000">der Chemischen Industrie, United States Public Health Service (grants</text>
+<text top="849" left="78" width="360" height="15" font="0" rotation="0.000000">RO1 AI41692 and E11/CCE620225), and Slovak Scientific Grant</text>
+<text top="863" left="78" width="360" height="15" font="0" rotation="0.000000">Agency (VEGA grant 2/7166). Boris Klempa acknowledges financial</text>
+<text top="876" left="78" width="231" height="15" font="0" rotation="0.000000">support by an EMBO short-term fellowship.</text>
+<text top="890" left="90" width="348" height="15" font="0" rotation="0.000000">We thank Claus Sibold and Katrin Leitmeyer for their contributions</text>
+<text top="903" left="78" width="360" height="15" font="0" rotation="0.000000">to the early stages of this work. We acknowledge the participation of</text>
+<text top="917" left="78" width="360" height="15" font="0" rotation="0.000000">Brita Haring, Beate Ziaja, Anna Hegele, and Burkhard Jandrig in</text>
+<text top="930" left="78" width="360" height="15" font="0" rotation="0.000000">performing the experiments. We thank Mikka Salminen and Christian</text>
+<text top="944" left="78" width="141" height="15" font="0" rotation="0.000000">Pitra for helpful discussions.</text>
+<text top="966" left="223" width="70" height="12" font="15" rotation="0.000000">REFERENCES</text>
+<text top="981" left="83" width="8" height="13" font="6" rotation="0.000000">1.</text>
+<text top="982" left="97" width="342" height="12" font="15" rotation="0.000000">Avsic-Zupanc, T., S. Y. Xiao, R. Stojanovic, A. Gligic, G. van der Groen, and</text>
+<text top="994" left="97" width="61" height="12" font="15" rotation="0.000000">J. W. LeDuc.</text>
+<text top="993" left="161" width="277" height="13" font="6" rotation="0.000000">1992. Characterization of Dobrava virus: a Hantavirus from</text>
+<text top="1005" left="97" width="164" height="13" font="6" rotation="0.000000">Slovenia, Yugoslavia. J. Med. Virol.</text>
+<text top="1006" left="264" width="13" height="12" font="15" rotation="0.000000">38:</text>
+<text top="1005" left="277" width="39" height="13" font="6" rotation="0.000000">132­137.</text>
+<text top="1017" left="83" width="8" height="13" font="6" rotation="0.000000">2.</text>
+<text top="1018" left="97" width="342" height="12" font="15" rotation="0.000000">Avsic-Zupanc, T., A. Toney, K. Anderson, Y. K. Chu, and C. Schmaljohn.</text>
+<text top="1029" left="97" width="342" height="13" font="6" rotation="0.000000">1995. Genetic and antigenic properties of Dobrava virus: a unique member</text>
+<text top="1041" left="97" width="27" height="13" font="6" rotation="0.000000">of the</text>
+<text top="1041" left="127" width="48" height="13" font="16" rotation="0.000000">Hantavirus</text>
+<text top="1041" left="179" width="60" height="13" font="6" rotation="0.000000">genus, family</text>
+<text top="1041" left="242" width="57" height="13" font="16" rotation="0.000000">Bunyaviridae</text>
+<text top="1041" left="299" width="69" height="13" font="6" rotation="0.000000">. J. Gen. Virol.</text>
+<text top="1042" left="371" width="13" height="12" font="15" rotation="0.000000">76:</text>
+<text top="1041" left="384" width="50" height="13" font="6" rotation="0.000000">2801­2808.</text>
+<text top="1053" left="83" width="8" height="13" font="6" rotation="0.000000">3.</text>
+<text top="1054" left="97" width="342" height="12" font="15" rotation="0.000000">Avsic-Zupanc, T., K. Nemirov, M. Petrovec, T. Trilar, M. Poljak, A. Vaheri,</text>
+<text top="116" left="484" width="76" height="12" font="15" rotation="0.000000">and A. Plyusnin.</text>
+<text top="116" left="563" width="262" height="13" font="6" rotation="0.000000">2000. Genetic analysis of wild-type Dobrava hantavirus in</text>
+<text top="128" left="484" width="342" height="13" font="6" rotation="0.000000">Slovenia: co-existence of two distinct genetic lineages within the same nat-</text>
+<text top="140" left="484" width="113" height="13" font="6" rotation="0.000000">ural focus. J. Gen. Virol.</text>
+<text top="140" left="601" width="13" height="12" font="15" rotation="0.000000">81:</text>
+<text top="140" left="614" width="50" height="13" font="6" rotation="0.000000">1747­1755.</text>
+<text top="152" left="470" width="13" height="13" font="6" rotation="0.000000">3a.</text>
+<text top="152" left="484" width="342" height="12" font="15" rotation="0.000000">Brus Sjo¨lander, K., I. Golovljova, V. Vasilenko, A. Plyusnin, and Å. Lund-</text>
+<text top="164" left="484" width="24" height="12" font="15" rotation="0.000000">kvist.</text>
+<text top="164" left="511" width="314" height="13" font="6" rotation="0.000000">2002. Serological divergence of Dobrova and Saaremaa hantaviruses:</text>
+<text top="176" left="484" width="256" height="13" font="6" rotation="0.000000">evidence for two distinct serotypes. J. Epidemiol. Infect.</text>
+<text top="176" left="743" width="19" height="12" font="15" rotation="0.000000">128:</text>
+<text top="176" left="762" width="34" height="13" font="6" rotation="0.000000">99­103.</text>
+<text top="188" left="470" width="8" height="13" font="6" rotation="0.000000">4.</text>
+<text top="188" left="484" width="146" height="12" font="15" rotation="0.000000">Chomczynski, P., and N. Sacchi.</text>
+<text top="188" left="632" width="193" height="13" font="6" rotation="0.000000">1987. Single-step method of RNA isolation</text>
+<text top="200" left="484" width="342" height="13" font="6" rotation="0.000000">by acid guanidinium thiocyanate-phenol-chloroform extraction. Anal. Bio-</text>
+<text top="212" left="484" width="27" height="13" font="6" rotation="0.000000">chem.</text>
+<text top="212" left="514" width="19" height="12" font="15" rotation="0.000000">162:</text>
+<text top="212" left="533" width="39" height="13" font="6" rotation="0.000000">156­159.</text>
+<text top="224" left="470" width="8" height="13" font="6" rotation="0.000000">5.</text>
+<text top="224" left="484" width="342" height="12" font="15" rotation="0.000000">Elliott, R. M., M. Bouloy, C. H. Calisher, R. Goldbach, J. T. Moyer, S. T.</text>
+<text top="236" left="484" width="266" height="12" font="15" rotation="0.000000">Nichol, R. Pettersson, A. Plyusnin, and C. S. Schmaljohn.</text>
+<text top="236" left="753" width="24" height="13" font="6" rotation="0.000000">2000.</text>
+<text top="236" left="780" width="45" height="13" font="16" rotation="0.000000">Bunyaviri-</text>
+<text top="248" left="484" width="15" height="13" font="16" rotation="0.000000">dae</text>
+<text top="248" left="499" width="326" height="13" font="6" rotation="0.000000">,p.599­621. In M. H. V. van Regenmortel, C. M. Fauquet, D. H. L.</text>
+<text top="260" left="484" width="342" height="13" font="6" rotation="0.000000">Bishop, E. B. Carstens, M. K. Estes, S. M. Lemon, J. Maniloff, M. A. Mayo,</text>
+<text top="272" left="484" width="342" height="13" font="6" rotation="0.000000">D. J. McGeoch, C. R. Pringle, and R. B. Wickner (ed.), Virus taxonomy:</text>
+<text top="284" left="484" width="342" height="13" font="6" rotation="0.000000">classification and nomenclature of viruses. Seventh report of the International</text>
+<text top="296" left="484" width="315" height="13" font="6" rotation="0.000000">Committee on Taxonomy of Viruses. Academic Press, San Diego, Calif.</text>
+<text top="308" left="470" width="8" height="13" font="6" rotation="0.000000">6.</text>
+<text top="308" left="484" width="52" height="12" font="15" rotation="0.000000">Hall, T. A.</text>
+<text top="308" left="540" width="285" height="13" font="6" rotation="0.000000">1999. BioEdit: a user-friendly biological sequence alignment</text>
+<text top="320" left="484" width="342" height="13" font="6" rotation="0.000000">editor and analysis program for Windows95./98/NT. Nucleic Acids Symp.</text>
+<text top="332" left="484" width="18" height="13" font="6" rotation="0.000000">Ser.</text>
+<text top="332" left="505" width="13" height="12" font="15" rotation="0.000000">41:</text>
+<text top="332" left="518" width="29" height="13" font="6" rotation="0.000000">95­98.</text>
+<text top="344" left="470" width="8" height="13" font="6" rotation="0.000000">7.</text>
+<text top="345" left="484" width="342" height="12" font="15" rotation="0.000000">Henderson, W. W., M. C. Monroe, S. C. St. Jeor, W. P. Thayer, J. E. Rowe,</text>
+<text top="357" left="484" width="138" height="12" font="15" rotation="0.000000">C. J. Peters, and S. T. Nichol.</text>
+<text top="356" left="626" width="200" height="13" font="6" rotation="0.000000">1995. Naturally occurring Sin Nombre virus</text>
+<text top="368" left="484" width="135" height="13" font="6" rotation="0.000000">genetic reassortants. Virology</text>
+<text top="369" left="622" width="19" height="12" font="15" rotation="0.000000">214:</text>
+<text top="368" left="640" width="39" height="13" font="6" rotation="0.000000">602­610.</text>
+<text top="380" left="470" width="8" height="13" font="6" rotation="0.000000">8.</text>
+<text top="381" left="484" width="142" height="12" font="15" rotation="0.000000">Kru¨ger, D. H., R. Ulrich, and A</text>
+<text top="379" left="620" width="60" height="14" font="15" rotation="0.000000">°. Lundkvist.</text>
+<text top="380" left="683" width="142" height="13" font="6" rotation="0.000000">2001. Hantavirus infections and</text>
+<text top="392" left="484" width="154" height="13" font="6" rotation="0.000000">their prevention. Microbes Infect.</text>
+<text top="393" left="641" width="8" height="12" font="15" rotation="0.000000">3:</text>
+<text top="392" left="649" width="50" height="13" font="6" rotation="0.000000">1129­1144.</text>
+<text top="404" left="470" width="8" height="13" font="6" rotation="0.000000">9.</text>
+<text top="405" left="484" width="286" height="12" font="15" rotation="0.000000">Li, D., A. L. Schmaljohn, K. Anderson, and C. S. Schmaljohn.</text>
+<text top="404" left="773" width="52" height="13" font="6" rotation="0.000000">1995. Com-</text>
+<text top="416" left="484" width="342" height="13" font="6" rotation="0.000000">plete nucleotide sequences of the M and S segments of two hantavirus</text>
+<text top="428" left="484" width="342" height="13" font="6" rotation="0.000000">isolates from California: evidence for reassortment in nature among viruses</text>
+<text top="440" left="484" width="239" height="13" font="6" rotation="0.000000">related to hantavirus pulmonary syndrome. Virology</text>
+<text top="441" left="726" width="19" height="12" font="15" rotation="0.000000">206:</text>
+<text top="440" left="744" width="39" height="13" font="6" rotation="0.000000">973­983.</text>
+<text top="452" left="465" width="13" height="13" font="6" rotation="0.000000">10.</text>
+<text top="453" left="484" width="342" height="12" font="15" rotation="0.000000">Lole, K. S., R. C. Bollinger, R. S. Paranjape, D. Gadkari, S. S. Kulkarni,</text>
+<text top="465" left="484" width="263" height="12" font="15" rotation="0.000000">N. G. Novak, R. Ingersoll, H. W. Sheppard, and S. C. Ray.</text>
+<text top="464" left="749" width="76" height="13" font="6" rotation="0.000000">1999. Full-length</text>
+<text top="476" left="484" width="342" height="13" font="6" rotation="0.000000">human immunodeficiency virus type 1 genomes from subtype C-infected</text>
+<text top="488" left="484" width="342" height="13" font="6" rotation="0.000000">seroconverters in India, with evidence of intersubtype recombination. J. Vi-</text>
+<text top="500" left="484" width="15" height="13" font="6" rotation="0.000000">rol.</text>
+<text top="501" left="502" width="13" height="12" font="15" rotation="0.000000">73:</text>
+<text top="500" left="516" width="39" height="13" font="6" rotation="0.000000">152­160.</text>
+<text top="512" left="465" width="13" height="13" font="6" rotation="0.000000">11.</text>
+<text top="513" left="484" width="193" height="12" font="15" rotation="0.000000">Mertz, G. J., B. L. Hjelle, and R. T. Bryan.</text>
+<text top="512" left="680" width="146" height="13" font="6" rotation="0.000000">1997. Hantavirus infection. Adv.</text>
+<text top="524" left="484" width="58" height="13" font="6" rotation="0.000000">Intern. Med.</text>
+<text top="525" left="545" width="13" height="12" font="15" rotation="0.000000">42:</text>
+<text top="524" left="558" width="39" height="13" font="6" rotation="0.000000">369­421.</text>
+<text top="536" left="465" width="13" height="13" font="6" rotation="0.000000">12.</text>
+<text top="537" left="484" width="139" height="12" font="15" rotation="0.000000">Nemirov, K., O. Vapalahti, A</text>
+<text top="535" left="616" width="209" height="14" font="15" rotation="0.000000">°. Lundkvist, V. Vasilenko, I. Golovljova, A.</text>
+<text top="549" left="484" width="342" height="12" font="15" rotation="0.000000">Plyusnina, J. Niemimaa, J. Laakkonen, H. Henttonen, A. Vaheri, and A.</text>
+<text top="561" left="484" width="42" height="12" font="15" rotation="0.000000">Plyusnin.</text>
+<text top="560" left="529" width="297" height="13" font="6" rotation="0.000000">1999. Isolation and characterization of Dobrava hantavirus carried</text>
+<text top="572" left="484" width="130" height="13" font="6" rotation="0.000000">by the striped field mouse (</text>
+<text top="572" left="614" width="85" height="13" font="16" rotation="0.000000">Apodemus agrarius</text>
+<text top="572" left="699" width="127" height="13" font="6" rotation="0.000000">) in Estonia. J. Gen. Virol.</text>
+<text top="585" left="484" width="13" height="12" font="15" rotation="0.000000">80:</text>
+<text top="584" left="497" width="39" height="13" font="6" rotation="0.000000">371­379.</text>
+<text top="596" left="465" width="13" height="13" font="6" rotation="0.000000">13.</text>
+<text top="597" left="484" width="54" height="12" font="15" rotation="0.000000">Plyusnin, A.</text>
+<text top="596" left="541" width="285" height="13" font="6" rotation="0.000000">2002. Genetics of hantaviruses: implications to taxonomy. Arch.</text>
+<text top="608" left="484" width="26" height="13" font="6" rotation="0.000000">Virol.</text>
+<text top="609" left="513" width="19" height="12" font="15" rotation="0.000000">147:</text>
+<text top="608" left="532" width="39" height="13" font="6" rotation="0.000000">665­682.</text>
+<text top="620" left="465" width="13" height="13" font="6" rotation="0.000000">14.</text>
+<text top="621" left="484" width="151" height="12" font="15" rotation="0.000000">Plyusnin, A., D. H. Kru¨ger, and A</text>
+<text top="619" left="629" width="60" height="14" font="15" rotation="0.000000">°. Lundkvist.</text>
+<text top="620" left="692" width="134" height="13" font="6" rotation="0.000000">2001. Hantavirus infections in</text>
+<text top="632" left="484" width="113" height="13" font="6" rotation="0.000000">Europe. Adv. Virus Res.</text>
+<text top="633" left="600" width="13" height="12" font="15" rotation="0.000000">57:</text>
+<text top="632" left="613" width="39" height="13" font="6" rotation="0.000000">105­136.</text>
+<text top="644" left="465" width="13" height="13" font="6" rotation="0.000000">15.</text>
+<text top="645" left="484" width="342" height="12" font="15" rotation="0.000000">Plyusnin, A., S. K. J. Kukkonen, A. Plyusnina, O. Vapalahti, and A. Vaheri.</text>
+<text top="656" left="484" width="342" height="13" font="6" rotation="0.000000">2002. Transfection-mediated generation of functionally competent Tula han-</text>
+<text top="668" left="484" width="240" height="13" font="6" rotation="0.000000">tavirus with recombinant S RNA segment. EMBO J.</text>
+<text top="669" left="728" width="13" height="12" font="15" rotation="0.000000">21:</text>
+<text top="668" left="741" width="50" height="13" font="6" rotation="0.000000">1497­1503.</text>
+<text top="681" left="465" width="13" height="13" font="6" rotation="0.000000">16.</text>
+<text top="681" left="484" width="150" height="12" font="15" rotation="0.000000">Plyusnin, A., and S. P. Morzunov.</text>
+<text top="681" left="636" width="189" height="13" font="6" rotation="0.000000">2001. Virus evolution and genetic diversity</text>
+<text top="693" left="484" width="342" height="13" font="6" rotation="0.000000">of hantaviruses and their rodent hosts. Curr. Top. Microbiol. Immunol.</text>
+<text top="705" left="484" width="19" height="12" font="15" rotation="0.000000">256:</text>
+<text top="705" left="502" width="29" height="13" font="6" rotation="0.000000">47­75.</text>
+<text top="717" left="465" width="13" height="13" font="6" rotation="0.000000">17.</text>
+<text top="717" left="484" width="276" height="12" font="15" rotation="0.000000">Rodriguez, L. L., J. H. Owens, C. J. Peters, and S. T. Nichol.</text>
+<text top="717" left="763" width="62" height="13" font="6" rotation="0.000000">1998. Genetic</text>
+<text top="729" left="484" width="342" height="13" font="6" rotation="0.000000">reassortment among viruses causing hantavirus pulmonary syndrome. Virol-</text>
+<text top="741" left="484" width="16" height="13" font="6" rotation="0.000000">ogy</text>
+<text top="741" left="503" width="19" height="12" font="15" rotation="0.000000">242:</text>
+<text top="741" left="521" width="34" height="13" font="6" rotation="0.000000">99­106.</text>
+<text top="753" left="465" width="13" height="13" font="6" rotation="0.000000">18.</text>
+<text top="753" left="484" width="313" height="12" font="15" rotation="0.000000">Salminen, M. O., J. K. Carr, D. S. Burke, and F. E. McCutchan.</text>
+<text top="753" left="802" width="24" height="13" font="6" rotation="0.000000">1995.</text>
+<text top="765" left="484" width="342" height="13" font="6" rotation="0.000000">Identification of breakpoints in intergenotypic recombinants of HIV type 1</text>
+<text top="777" left="484" width="202" height="13" font="6" rotation="0.000000">by bootscanning. AIDS Res. Hum. Retrovir.</text>
+<text top="777" left="689" width="13" height="12" font="15" rotation="0.000000">11:</text>
+<text top="777" left="703" width="50" height="13" font="6" rotation="0.000000">1423­1425.</text>
+<text top="789" left="465" width="13" height="13" font="6" rotation="0.000000">19.</text>
+<text top="789" left="484" width="149" height="12" font="15" rotation="0.000000">Schmaljohn, C. S., and B. Hjelle.</text>
+<text top="789" left="636" width="189" height="13" font="6" rotation="0.000000">1997. Hantaviruses: a global disease prob-</text>
+<text top="801" left="484" width="110" height="13" font="6" rotation="0.000000">lem. Emerg. Infect. Dis.</text>
+<text top="801" left="597" width="8" height="12" font="15" rotation="0.000000">3:</text>
+<text top="801" left="605" width="34" height="13" font="6" rotation="0.000000">95­104.</text>
+<text top="813" left="465" width="13" height="13" font="6" rotation="0.000000">20.</text>
+<text top="813" left="484" width="313" height="12" font="15" rotation="0.000000">Schmidt, H. A., K. Strimmer, M. Vingron, and A. von Haeseler.</text>
+<text top="813" left="802" width="24" height="13" font="6" rotation="0.000000">2002.</text>
+<text top="825" left="484" width="342" height="13" font="6" rotation="0.000000">TREE-PUZZLE: maximum likelihood phylogenetic analysis using quartets</text>
+<text top="837" left="484" width="178" height="13" font="6" rotation="0.000000">and parallel computing. Bioinformatics</text>
+<text top="837" left="665" width="13" height="12" font="15" rotation="0.000000">18:</text>
+<text top="837" left="678" width="39" height="13" font="6" rotation="0.000000">502­504.</text>
+<text top="849" left="465" width="13" height="13" font="6" rotation="0.000000">21.</text>
+<text top="850" left="484" width="342" height="12" font="15" rotation="0.000000">Sibold, C., H. Meisel, D. H. Kru¨ger, M. Labuda, J. Lysy, O. Kozuch, M.</text>
+<text top="862" left="484" width="161" height="12" font="15" rotation="0.000000">Pejcoch, A. Vaheri, and A. Plyusnin.</text>
+<text top="861" left="647" width="179" height="13" font="6" rotation="0.000000">1999. Recombination in Tula hantavirus</text>
+<text top="873" left="484" width="281" height="13" font="6" rotation="0.000000">evolution: analysis of genetic lineages from Slovakia. J. Virol.</text>
+<text top="874" left="768" width="13" height="12" font="15" rotation="0.000000">73:</text>
+<text top="873" left="781" width="39" height="13" font="6" rotation="0.000000">667­675.</text>
+<text top="885" left="465" width="13" height="13" font="6" rotation="0.000000">22.</text>
+<text top="886" left="484" width="116" height="12" font="15" rotation="0.000000">Sibold, C., H. Meisel, A</text>
+<text top="883" left="593" width="232" height="14" font="15" rotation="0.000000">°. Lundkvist, A. Schulz, F. Cifire, R. Ulrich, O.</text>
+<text top="898" left="484" width="183" height="12" font="15" rotation="0.000000">Kozuch, M. Labuda, and D. H. Kru¨ger.</text>
+<text top="897" left="671" width="155" height="13" font="6" rotation="0.000000">1999. Simultaneous occurrence of</text>
+<text top="909" left="484" width="342" height="13" font="6" rotation="0.000000">Dobrava, Puumala and Tula hantaviruses in Slovakia. Am. J. Trop. Med.</text>
+<text top="921" left="484" width="21" height="13" font="6" rotation="0.000000">Hyg.</text>
+<text top="922" left="508" width="13" height="12" font="15" rotation="0.000000">61:</text>
+<text top="921" left="521" width="39" height="13" font="6" rotation="0.000000">409­411.</text>
+<text top="933" left="465" width="13" height="13" font="6" rotation="0.000000">23.</text>
+<text top="934" left="484" width="164" height="12" font="15" rotation="0.000000">Sibold, C., R. Ulrich, M. Labuda, A</text>
+<text top="932" left="641" width="184" height="14" font="15" rotation="0.000000">°. Lundkvist, H. Martens, M. Schu¨tt, P.</text>
+<text top="946" left="484" width="225" height="12" font="15" rotation="0.000000">Gerke, K. Leitmeyer, H. Meisel, and D. H. Kru¨ger.</text>
+<text top="945" left="711" width="114" height="13" font="6" rotation="0.000000">2001. Dobrava hantavirus</text>
+<text top="957" left="484" width="342" height="13" font="6" rotation="0.000000">causes hemorrhagic fever with renal syndrome in central Europe and is</text>
+<text top="969" left="484" width="106" height="13" font="6" rotation="0.000000">carried by two different</text>
+<text top="969" left="593" width="46" height="13" font="16" rotation="0.000000">Apodemus</text>
+<text top="969" left="643" width="126" height="13" font="6" rotation="0.000000">mice species. J. Med. Virol.</text>
+<text top="970" left="773" width="13" height="12" font="15" rotation="0.000000">63:</text>
+<text top="969" left="786" width="39" height="13" font="6" rotation="0.000000">158­167.</text>
+<text top="981" left="465" width="13" height="13" font="6" rotation="0.000000">24.</text>
+<text top="982" left="484" width="169" height="12" font="15" rotation="0.000000">Strimmer, K., and A. von Haeseler.</text>
+<text top="981" left="658" width="167" height="13" font="6" rotation="0.000000">1997. Likelihood-mapping: a simple</text>
+<text top="993" left="484" width="342" height="13" font="6" rotation="0.000000">method to visualize phylogenetic content of a sequence alignment. Proc.</text>
+<text top="1005" left="484" width="97" height="13" font="6" rotation="0.000000">Natl. Acad. Sci. USA</text>
+<text top="1006" left="584" width="13" height="12" font="15" rotation="0.000000">94:</text>
+<text top="1005" left="598" width="50" height="13" font="6" rotation="0.000000">6815­6819.</text>
+<text top="1017" left="465" width="13" height="13" font="6" rotation="0.000000">25.</text>
+<text top="1018" left="484" width="241" height="12" font="15" rotation="0.000000">Thompson, J. D., D. G. Higgins, and T. J. Gibson.</text>
+<text top="1017" left="729" width="96" height="13" font="6" rotation="0.000000">1994. CLUSTAL W:</text>
+<text top="1029" left="484" width="342" height="13" font="6" rotation="0.000000">improving the sensitivity of progressive multiple sequence alignment through</text>
+<text top="1041" left="484" width="342" height="13" font="6" rotation="0.000000">sequence weighting, position-specific gap penalties and weight matrix choice.</text>
+<text top="1053" left="484" width="86" height="13" font="6" rotation="0.000000">Nucleic Acids Res.</text>
+<text top="1054" left="573" width="13" height="12" font="15" rotation="0.000000">22:</text>
+<text top="1053" left="587" width="50" height="13" font="6" rotation="0.000000">4673­4680.</text>
+<text top="79" left="78" width="9" height="15" font="0" rotation="0.000000">V</text>
+<text top="82" left="87" width="13" height="11" font="1" rotation="0.000000">OL</text>
+<text top="79" left="101" width="50" height="15" font="0" rotation="0.000000">. 77, 2003</text>
+<text top="79" left="744" width="42" height="15" font="0" rotation="0.000000">NOTES</text>
+<text top="79" left="807" width="18" height="15" font="0" rotation="0.000000">809</text>
+</page>
+</pdf2xml>
