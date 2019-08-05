@@ -2,6 +2,8 @@
 + [This](README.md)
 + [getTitle](Title.md)
 + [Analyzing code in functions to identify abstractions and representation-specific implementations](README2.md)
++ [getColPositions() discussion](ColumnPositions.md)
++ [isCentered discussion](isCentered.md)
 
 # Strategies for Integrating OCR and PDF Document Manipulation Code.
 
@@ -750,3 +752,31 @@ R. We can create a different class for this if we wanted, say
 OCRImages that extends Document.
 
 setClass("OCRImages", contains= c("Document", "list"))
+
+
+
+
+
+
+
+## Methods versus Coercion
+
+If a function simply insists on having a particular structure of object
+but the "verb" supports operating on different structures, we can either
+have 
++ methods for those other types
++ a coercion to the target type within the function.
+
+See contentByLine() for an example of the latter.
+
+
++ If a method has to do some additional work before or after the coercion,
+then we need the method. This is more than a coercion and an essential part of the
+method that differs from the, perhaps, primary method that does the "true", or heart of the, computation.
+
++ If the method has to change the default arguments, then the method is necessary, 
+  + or the primary function needs 
+   + if() statements or
+   + to get the value by calling a method on the original object.
+  + so the method is typically simpler/more direct, unless this other method for get the value of
+       the parameter has use in several other places.   
