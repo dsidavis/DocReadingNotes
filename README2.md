@@ -65,6 +65,7 @@ setdiff(unlist(sapply(gg, `[[`, "functions")), c(ls(e), ls("package:base"), ls("
 [37] "getSibling"       
 ```
 
+
 + Conceptually the following should be in GetDocElements as they are implementation independent.  So we need to implement these.
   + findAbstract - anyTextToLeft, cleanAbstract, columnOf, findAbstractDecl, findEIDAbstract, findKeywordDecl, findSectionHeaders, getBBox, getBBox2, getColPositions, getDocFont, getFontInfo, getNodesBetween, getShiftedAbstract, getSubmissionDateInfo, getTextByCols, hasCoverPage, isBioOne, isEID, isNodeIn, margins, mostCommon, pageOf, readPDFXML, sapply, spansColumns
   + getTextByCols - getBBox2, getColPositions, getXPathDocFontQuery, lapply, orderByLine, sapply
