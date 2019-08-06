@@ -4,6 +4,7 @@
 + [Analyzing code in functions to identify abstractions and representation-specific implementations](README2.md)
 + [getColPositions() discussion](ColumnPositions.md)
 + [isCentered discussion](isCentered.md)
++ [Dociface package](Dociface.md)
 
 # Strategies for Integrating OCR and PDF Document Manipulation Code.
 
@@ -748,11 +749,17 @@ Treating a document as a sequence of filenames is not ideal.
 Other actions on the machine can remove one of the pages.
 Instead, we would like to read the contents immediately and use those.
 We could do this by reading the resulting images (PNG files) into
-R. We can create a different class for this if we wanted, say
+R and hold the directly in memory. We can create a different class for this if we wanted, say
 OCRImages that extends Document.
 
 setClass("OCRImages", contains= c("Document", "list"))
 
+
+
+Rather than representing an OCRDocument as a character vector of file names
+and having the [[ operator return an OCRPage object, we could define
+the OCRDocument as a list with each element being an OCRPage.
+Then [[ "just works".
 
 
 
