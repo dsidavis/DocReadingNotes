@@ -212,11 +212,12 @@ function(page, threshold = .1,
 
 
 
-pngs = list.files("../ScannedEgs", pattern = "png$", full = TRUE)
+pngs = list.files("ScannedEgs", pattern = "png$", full = TRUE)
 zzz = structure(lapply(pngs, GetBoxes), names = basename(pngs))
+names(zzz) = pngs
 
 
-xml = list.files("../SamplePDFs", pattern = "xml$", full = TRUE)
+xml = list.files("SamplePDFs", pattern = "xml$", full = TRUE)
 xmls = lapply(xml, function(x) { doc = readPDFXML(x); lapply(doc, getBBox2, asDataFrame = TRUE)})
 names(xmls) = xml
 
