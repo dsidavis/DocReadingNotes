@@ -43,6 +43,7 @@ This is a method for margins(). This generic should be defined in Dociface.
 
 
 
+
 In fact, GetDocElements may become this package
 and not sit down-stream of ReadPDF and Rtesseract. Instead, these 2 packages
 import Dociface a

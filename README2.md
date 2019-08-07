@@ -68,7 +68,7 @@ setdiff(unlist(sapply(gg, `[[`, "functions")), c(ls(e), ls("package:base"), ls("
 
 + Conceptually the following should be in GetDocElements as they are implementation independent.  So we need to implement these.
   + findAbstract - anyTextToLeft, cleanAbstract, columnOf, findAbstractDecl, findEIDAbstract, findKeywordDecl, findSectionHeaders, getBBox, getBBox2, getColPositions, getDocFont, getFontInfo, getNodesBetween, getShiftedAbstract, getSubmissionDateInfo, getTextByCols, hasCoverPage, isBioOne, isEID, isNodeIn, margins, mostCommon, pageOf, readPDFXML, sapply, spansColumns
-  + getTextByCols - getBBox2, getColPositions, getXPathDocFontQuery, lapply, orderByLine, sapply
+  + getTextByCols - getBBox2, getColPositions, getXPathDocFontQuery, orderByLine
   + findShortLines - nodesByLine, getLineEnds
   + getLineEnds - getBBox2. Takes nodes. Need it to take subset of bbox on the line.
   + nodesByLine - arrangeLineNodes, getBBox2, getDocFont, pageOf
@@ -77,11 +77,17 @@ setdiff(unlist(sapply(gg, `[[`, "functions")), c(ls(e), ls("package:base"), ls("
   + inColumn - getBBox2, getLineEnds, getTextByCols, nodesByLine, identicalInColumn (compares XML nodes, but could do on row of bbox),
 
   + pageOf - does it make sense for scanned documents - yes, but not for page.
-
   + hasCoverPage - ultimately XPath expressions. 
-  + getNumPages - getNodeSet
-  + getPages - getNodeSet  
   
+  
+  
+  + [done] getPages - getNodeSet  
+      + Generic in Dociface
+	  + Methods in ReadPDF and OCR.
+	  
+  + [done] getNumPages - getNodeSet
+      + generic and default in Dociface.
+
 + PDF-XML specific functions probably.
   + getFontInfo, getTextNodeColors, getTextFonts, getDocFont
   + getFontText

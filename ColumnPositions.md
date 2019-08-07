@@ -219,9 +219,10 @@ names(zzz) = pngs
 
 xml = list.files("SamplePDFs", pattern = "xml$", full = TRUE)
 xmls = lapply(xml, function(x) { doc = readPDFXML(x); lapply(doc, getBBox2, asDataFrame = TRUE)})
-names(xmls) = xml
+names(xmls) = xmls
 
 
+pdfs = xml
 dev.set(3)
 par(mfrow = c( 3, 5)); invisible(mapply(function(d, id) { d = density(d$left, 3); plot(d, main = id, type = "b"); abline(h = quantile(d$y, .99), col = "red")}, pdfs, basename(names(pdfs))))
 par(mfrow = c( 3, 5)); invisible(mapply(function(d, id) { dens = density(d$left, 3); plot(dens, main = id, type = "b"); abline(h = quantile(dens$y, .99), col = "red"); abline(v = getColPositions(d, bw = 3), col = "green")}, pdfs, basename(names(pdfs))))

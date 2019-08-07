@@ -22,7 +22,8 @@ function(bbox, asNodes = TRUE,
          baseFont = NULL, fontSize = 11,
 #        baseFont = getDocFont(as(nodes[[1]], "XMLInternalDocument")), 
 #         fontSize = if (nrow(baseFont) > 0) baseFont$size else 11, 
-        addText = TRUE, useBase = TRUE, rotate = FALSE, var = "bottom", maxDiff = 13)   # was "top"
+         addText = TRUE, useBase = TRUE, rotate = FALSE, var = "bottom", maxDiff = 13,
+         tolerance = getTolerance(bbox))   # was "top"
 {
     orig = bbox # in case we need the class.
     
@@ -130,3 +131,21 @@ if(FALSE) {
     b1 = zzz[[1]]
     truth = unname(sapply(split(b1$text, cut(b1$bottom, foo(b1$bottom, 13))), paste, collapse = " "))
 }
+
+
+
+
+
+setMethod("getTolerance", "WordOCRTextBoundingBox",
+          function(box) {
+      # elaborate computation 
+          })
+          
+setMethod("getTolerance", "OCRTextBoundingBox",
+          function(box) {
+              switch(class(bbox)[1],
+                     "Line" = 2,
+                     "Para" = 10,
+                     "Symbol" = .5
+          }
+          )
