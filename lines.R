@@ -1,12 +1,24 @@
 if(FALSE) {
-    o = findLineBreaks1(bb1)
+    o = findLineBreaks(bb1)
+    ll = split(bb1, cut(bb1$top + bb1$height, o))
+    ll.txt = sapply(ll, function(x) paste(x$text[order(x$left)], collapse = " "))
 
+    o = findLineBreaks(bb1, asPosition = FALSE)
+    sapply(o, function(x) paste(x$text[order(x$left)], collapse = " "))
+
+    o = findLineBreaks(bb2, asPosition = FALSE)
+    sapply(o, function(x) paste(x$text[order(x$left)], collapse = " "))    
+    
+    if(FALSE) {
+        # using the old return  value during experimentation
     plot(o$dens, type = "b")
     abline(v = sapply(o$starts, min), col = "green")
 
     ss = sapply(o$starts, min)
     ll = split(bb1, cut(bb1$top + bb1$height, ss))
-    ll.txt = sapply(ll, function(x) paste(x$text[order(x$left)], collapse = " "))    
+    ll.txt = sapply(ll, function(x) paste(x$text[order(x$left)], collapse = " "))        
+}
+    
 
     if(FALSE ) {
     # No longer appropriate. Was working from the un-subsetted grps.
@@ -17,7 +29,7 @@ if(FALSE) {
     }
 }
 
-findLineBreaks1 =
+findLineBreaks =
     #
     # This works reasonably well.
     # However, it fails on a few lines on the first page of Amada-2013.pdf, specifically
@@ -31,7 +43,7 @@ findLineBreaks1 =
     #  lines
     #  columns
     #  lines within columns
-function(bbox, bw = 3, minInRun = 3, minDelta = 0)
+function(bbox, bw = 3, minInRun = 3, minDelta = 0, asPositions = TRUE)
 {
     # compute the density of the bottom location, but weight the values
     # based on the length of the "word", either as the width or nchar(bbox$text)
@@ -40,7 +52,7 @@ function(bbox, bw = 3, minInRun = 3, minDelta = 0)
 
     # Look at the change in the density. We are looking for the increasing parts of the curve
     # where there are several points in a row that have increasing y so the difference is positive
-    #!!!!XXXX    bad variable d       delta = c(0, diff(d$y))
+    #!!!!XXXX    bad variable d       delta = c(0, diff(d$y))   This caused me a long debug session.
     delta = c(0, diff(dens$y))
     # 
     runs = rle(delta >= minDelta)
@@ -49,25 +61,18 @@ function(bbox, bw = 3, minInRun = 3, minDelta = 0)
 
     # group the dens$x into the groups and then only keep this for which
     # the change is > minDelta and also that the run has at least minInRun
-    w = runs$values & runs$length >= minInRun
     grps = split(dens$x, g)
-    starts = grps[w]
-#    browser()
+    w = runs$values & runs$length >= minInRun
+    starts = sapply(grps[w], min)
+
+    if(asPositions)
+        starts
+    else 
+        split(bbox, cut(bbox$top + bbox$height, starts))
+
     
-    delta2 = c(0, diff(delta))
      # And again bad variable x = d$x    in "casual" version.
-    list(x = dens$x, delta = delta, delta2 = delta2, dens = dens, r = runs, starts = starts, g = g)
+     # list(x = dens$x, delta = delta, delta2 = delta2, dens = dens, r = runs, starts = starts, g = g)
 }
 
 
-findLineBreaks = 
-function(bbox, bw = 3, pct = .1)
-{
-    h = rep(bbox$top + bbox$height, bbox$width)    
-    dens = density(h, bw = bw)
-
-    w = dens$y < (min(dens$y)+ pct*(max(dens$y) - min(dens$y)))
-    g = cumsum(w)
-    browser()
-    split(dens$x, g)
-}
