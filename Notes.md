@@ -38,4 +38,12 @@ getTextBBox(x, color = TRUE)
 -      })
 
 
++ How to define ProcessedOCRDocument to contain OCRDocument 
+  but pass the validity.
+   + Introduce new virtual class for OCRDocument and have both extend that.
+   + Or have OCRResults be a/extend DocumentPage
+      + Won't work since using setOldClass() and that is quite rigid in allowing new class
+        hierarchy definitions based on the ordering and combination of classes.
+   +  If we have a list of OCRResults, then the plot should just work (?)
+      + Good reason to have as(x, "OCRResults") or as(x, "TextBoundingBox")
 + Note the getTextColors() method in the plot()
