@@ -1,0 +1,6 @@
+R CMD INSTALL ../Dociface && R CMD INSTALL ../ReadPDF&& R CMD INSTALL ../Rtesseract
+
+
+for d in Dociface ReadPDF Rtesseract ;  do
+  (echo "******** $d"; cd ../$d ; git status)
+done
