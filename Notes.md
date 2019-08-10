@@ -47,3 +47,17 @@ getTextBBox(x, color = TRUE)
    +  If we have a list of OCRResults, then the plot should just work (?)
       + Good reason to have as(x, "OCRResults") or as(x, "TextBoundingBox")
 + Note the getTextColors() method in the plot()
+
+
++ Discuss plot.Document and plot.MultiPageDocument and how we modified the former a little
+ (to add pages parameter) to reuse the same code.
+  + needed to remove the MultiPageBoundingBox class from each page after splitting the Multipage
+    into a BoundingBox for each separate page.
+  + Calling plot.Document directly is not ideal as it doesn't allow for extensibility by others.
+    + Could put a class on the list of BoundingBox'es for the pages like we do in
+      ProcessedOCRDocument.
+	  Inclination was to do this for a ProcessedDocument class in Dociface.
+	  Then have ProcessedOCRDocument inherit from this. But that is tricky to arrange
+	  because of ProcessedOCRDocument inherits from OCRDocument to get dispatch and so would need
+	  to inherit from 2 classes.  This is achievable, but not straightforward due to S3 and S4
+	  and setOldClass being used.

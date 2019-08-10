@@ -18,9 +18,11 @@
   + New class ProcessedOCRDocument which is  a Document, perhaps an OCRDocument, but 
     is a list of TextBoundingBox objects and we dispatch differently.
 
++ Put name of file, page number and dimension on the OCRResults object and the BoundingBox generally.
+  + Added in getTextBBox.OCRPage as file and pageDimensins.
+  + Take the pageDimensions off as we already have imageDims.
+  
 + Check/Fix  dim() method for OCRResults
-
-+ Put name of file, page and dimension on the OCRResults object and the BoundingBox generally.
 
 + getLines in multiple packages.
    + Hardly used at all in Rtesseract within the package, but in related code.
