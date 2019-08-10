@@ -23,6 +23,7 @@
   + Take the pageDimensions off as we already have imageDims.
   
 + Check/Fix  dim() method for OCRResults
++ Added imageDims() method for b(????)
 
 + getLines in multiple packages.
    + Hardly used at all in Rtesseract within the package, but in related code.
@@ -36,8 +37,9 @@
 
 + margins - 
   + top and bottom.
-  + for OCR page and different columns in TextBoundingBox
+  + ignore headers and footers.
   + drop rotated text in PDF/XML.
+  + for OCR page and different columns in TextBoundingBox (??? is this the top and bottom versus width and height)
   
 + Figure out if ShapesBoundingBox should have different names for the elements 
   + not x0,x1, y0, y1
@@ -72,3 +74,7 @@
 
 If we use the BBox throughout, then perhaps we can justify the expense of
 computing all columns (e.g. font, color, etc.) we may need down-stream.
+
+
+
+
