@@ -5,6 +5,16 @@
    + S3 or S4.
    + DocumentPage, Document in ReadPDF   
 
+
+## General Implementation
+
++ Documentation of functions in Dociface
++ Vignette describing the Dociface setup, classes, approach
++ Sample documents for tests into Dociface or wherever - 
++ Implement more functions from ReadPDF and Rtesseract in Dociface
++ Remove all the code in ReadPDF and Rtesseract that is no longer being used.
++ TEST existing functions.
+
 ## More Recent and Specific.
 
 1. [HIGH] Rationalize the signature for the generic and methods for getTextBBox, getShapesBBox, getTextByCols and getColPositions
@@ -15,6 +25,8 @@
     + merge code from ReadPDF and Rtesseract.
     + add the shapes from getShapesBBox()
 	+ any other additions (name of document, page number, ...)
+
+1. Probably make OCRResults a DocumentPage
 
 1. getColPositions() methods.
     + Claim we can do this almost entirely within Dociface from the BoundingBox.
