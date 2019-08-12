@@ -61,3 +61,8 @@ getTextBBox(x, color = TRUE)
 	  because of ProcessedOCRDocument inherits from OCRDocument to get dispatch and so would need
 	  to inherit from 2 classes.  This is achievable, but not straightforward due to S3 and S4
 	  and setOldClass being used.
+	  
+	  
++ in getTextLines(), we don't use a method for DocumentPage and TextBoundingBox. 
+  Instead, we just coerce the bbox to a TextBoundingBox. So if the caller passes
+  a page, then
