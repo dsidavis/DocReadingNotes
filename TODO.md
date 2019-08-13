@@ -21,12 +21,22 @@
     + font, nodes
     + what is the diffs params for in getTextBBox
 
-1. plot()  incorporate what we do for OCR/PDF. 
+1. plot() incorporate what we do for OCR/PDF. 
     + merge code from ReadPDF and Rtesseract.
     + add the shapes from getShapesBBox()
 	+ any other additions (name of document, page number, ...)
 
-1. Probably make OCRResults a DocumentPage
+1. plot shapes for OCR documents
+    + getShapesBBox() returning NULL, but is calling Rtesseract::getLines.
+	   + but findLines() is returning an empty Pix.
+
+1. Fix plot() of rectangles in shapes. Amada-2003.xml page 1.
+
+1. Get correct image locations in pdftohtml.
+
+1. Put images into the shapes bounding box
+
+1. Possibly make OCRResults a DocumentPage ??
 
 1. getColPositions() methods.
     + Claim we can do this almost entirely within Dociface from the BoundingBox.
@@ -47,10 +57,10 @@
  		  extraneous content.
   		    + But different from doing it per-call.
 		  
-1. Get a better way to represent the OCRDocument so that we avoid reprocessing it.
+1. [enhance] Get a better way to represent the OCRDocument so that we avoid reprocessing it.
     + New class ProcessedOCRDocument which is  a Document, perhaps an OCRDocument, but 
       is a list of TextBoundingBox objects and we dispatch differently.
-    + Do for XMLToPDF and unify.
+    + ProcessedDocument class in Dociface
 
 1. *Check/Fix*  dim() method for OCRResults (Dociface/R/plot.R)
     + method for bounding box needs to give those of data.frame
@@ -80,8 +90,14 @@
     + (meaning what?)  
 
 1. Fonts - determine approach for dealing with these.
-
-1. isBold - added to bounding box??
+    + We now put these into the TextBoundingBox when available.
+      + fontSize(), fontName() generics and methods.
+      + [done] fix the plot() method for TextBoundingBox to not access x$fontSize but to call a method.
+	
+1. isBold/isItalic - added to bounding box - YES
+    + generic and methods for isBold(). Returns vector of NAs by default.
+    	+ for PDFTextBoundingBox, columns fontIsBold, fontIsItalic now present.  Don't use
+          directly - isBold, isItalic.
     + if only optionally in BoundingBox, have to check if it is in the column names
 	  + should we fill in the redundant font name, size, etc. information.
     + if not present, can't determine it from the row of the BBox.
@@ -93,7 +109,13 @@
     + [done] Take the pageDimensions off as we already have imageDims.
   
 
-1. [CHECK - tests/plot.R] Resolve `Warning: replacing previous import ‘Dociface::plot’ by ‘graphics::plot’ when loading
+If we use the BBox throughout, then perhaps we can justify the expense of
+computing all columns (e.g. font, color, etc.) we may need down-stream.
+
+
+## Done
+
+1. [Done - tests/plot.R] Resolve `Warning: replacing previous import ‘Dociface::plot’ by ‘graphics::plot’ when loading
   ‘Rtesseract’`
     + Changed the order and the message doesn't appear.  But check works as we want.
 
@@ -104,8 +126,6 @@
 
 1. [Done] lapply() and sapply() methods for Document.
 
-If we use the BBox throughout, then perhaps we can justify the expense of
-computing all columns (e.g. font, color, etc.) we may need down-stream.
 
 
 
