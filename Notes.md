@@ -66,3 +66,26 @@ getTextBBox(x, color = TRUE)
 + in getTextLines(), we don't use a method for DocumentPage and TextBoundingBox. 
   Instead, we just coerce the bbox to a TextBoundingBox. So if the caller passes
   a page, then
+  
+  
+  
++ We had setAs("OCRPage", "TextBoundingBox", function(from) GetBoxes(from))
+  In experimenting with various paths through the plot() methods,
+  ```
+   doc = OCRDocument("ScannedEgs/Ogunkoya-1990.pdf")
+   plot(doc[[2]]
+   ```
+   showed the lines but no text.
+   It turned out that the code to scale the cex according to the fonts
+   was making the cex almost 0 for the text.
+   The reason was that there was a box returned by GetBoxes() which had 
+   the same height as the entire page - 3000.
+   But we had added code to remove these very large boxes when we discovered this phenomenon 
+   when computing the fontSize and fontName for an OCRPage. So why wasn't it working?
+   Because we did that in the getTextBBox method for OCRPage, not in GetBoxes.
+   And the coercion from OCRPage to TextBoundingBox skipped getTextBBox and went straight 
+   to GetBoxes, omitting the post-processing.
+   One could argue we should have put the filtering in GetBoxes and we almost did, but decided
+   not to (for backward compatability and to return the raw, unfiltered results).
+   But the moral is 1) not to short-circuit the primary function getTextBBox in the setAs() method,
+   2) keep a single path through the code.

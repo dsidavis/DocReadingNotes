@@ -29,6 +29,7 @@
 1. plot shapes for OCR documents
     + getShapesBBox() returning NULL, but is calling Rtesseract::getLines.
 	   + but findLines() is returning an empty Pix.
+	+ needed vert = 3 for that example.
 
 1. Fix plot() of rectangles in shapes. Amada-2003.xml page 1.
 
@@ -37,6 +38,8 @@
 1. Put images into the shapes bounding box
 
 1. Possibly make OCRResults a DocumentPage ??
+     + no longer needed.  
+     + Can't recall offhand why we might have wanted to do this.
 
 1. getColPositions() methods.
     + Claim we can do this almost entirely within Dociface from the BoundingBox.
@@ -126,7 +129,6 @@ computing all columns (e.g. font, color, etc.) we may need down-stream.
 
 1. [Done] lapply() and sapply() methods for Document.
 
-
-
+1. [Done] In OCR, getTextBBox() should drop rows with height = getPageHeight
 
 
