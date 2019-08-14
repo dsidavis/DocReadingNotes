@@ -23,7 +23,8 @@
 
 1. plot() incorporate what we do for OCR/PDF. 
     + merge code from ReadPDF and Rtesseract.
-    + add the shapes from getShapesBBox()
+    + [done] add the shapes from getShapesBBox()
+	+ show images (PDF)
 	+ any other additions (name of document, page number, ...)
 
 1. plot shapes for OCR documents
@@ -59,12 +60,15 @@
 		+ Perhaps filter after computing Bounding Box in a one-shot deal to discard
  		  extraneous content.
   		    + But different from doing it per-call.
-		  
+
+1. left, etc. method for ShapeBoundingBox. Not finding method.
+
 1. [enhance] Get a better way to represent the OCRDocument so that we avoid reprocessing it.
     + New class ProcessedOCRDocument which is  a Document, perhaps an OCRDocument, but 
       is a list of TextBoundingBox objects and we dispatch differently.
     + ProcessedDocument class in Dociface
-
+    + Add the Shapes boxes
+   
 1. *Check/Fix*  dim() method for OCRResults (Dociface/R/plot.R)
     + method for bounding box needs to give those of data.frame
     + so need getPageHeight() and getPageWidth() for BBox for OCR and PDF.

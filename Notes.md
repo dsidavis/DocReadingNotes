@@ -89,3 +89,28 @@ getTextBBox(x, color = TRUE)
    not to (for backward compatability and to return the raw, unfiltered results).
    But the moral is 1) not to short-circuit the primary function getTextBBox in the setAs() method,
    2) keep a single path through the code.
+
+
+
++ If we just define a method for left() for ShapeBoundingBox, it isn't found.
+In Dociface:
+```
+setMethod("left", "ShapeBoundingBox", function(x, ...) x$x0) 
+```
+Then
+```
+doc3 = readPDFXML("../ReadPDF/inst/samples/ElectricA2A_DPL_08-19-13.xml")
+sh = getShapesBBox(doc3) 
+[1] "MultiPageBoundingBox" "PDFShapesBoundingBox"
+[3] "PDFBoundingBox"       "ShapeBoundingBox"    
+[5] "data.frame"          
+ ```
+ This is because the class of the object we are operating is this 5 element vector.
+ We need to establish the relationship between the classes in this class-vector
+ In ReadDPF, we define
+```
+setOldClass(c("PDFShapesBoundingBox", "PDFBoundingBox", "ShapeBoundingBox", "data.frame"))
+setOldClass(c("MultiPageBoundingBox", "PDFShapesBoundingBox")) 
+```
+Then R finds the methods for left, etc. when called on `sh`.
+
