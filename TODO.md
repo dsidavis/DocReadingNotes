@@ -17,6 +17,19 @@
 
 ## More Recent and Specific.
 
+1. Meta-programming to find functions that are used in Rtesseract and ReadPDF to see which ones we
+   need to implement and which can be abstracted.
+    + Find code that isn't being used.
+	+ 
+
+1.  No method for MultipageBoundingBox. Need a setOldClass(),  but hard to glue that class on as we
+need it for OCR and PDF.
+```
+library(Dociface); library(Rtesseract)
+meb = OCRDocument("ScannedEgs/Mebatsion-1992.pdf")
+getDocFont(meb)
+```
+
 1. [HIGH] Rationalize the signature for the generic and methods for getTextBBox, getShapesBBox, getTextByCols and getColPositions
     + font, nodes
     + what is the diffs params for in getTextBBox
@@ -38,10 +51,6 @@
 
 1. Put images into the shapes bounding box
 
-1. Possibly make OCRResults a DocumentPage ??
-     + no longer needed.  
-     + Can't recall offhand why we might have wanted to do this.
-
 1. getColPositions() methods.
     + Claim we can do this almost entirely within Dociface from the BoundingBox.
     + Allow customization via fonts, headers, footers, etc.
@@ -61,7 +70,6 @@
  		  extraneous content.
   		    + But different from doing it per-call.
 
-1. left, etc. method for ShapeBoundingBox. Not finding method.
 
 1. [enhance] Get a better way to represent the OCRDocument so that we avoid reprocessing it.
     + New class ProcessedOCRDocument which is  a Document, perhaps an OCRDocument, but 
@@ -98,16 +106,9 @@
 
 1. Fonts - determine approach for dealing with these.
     + We now put these into the TextBoundingBox when available.
-      + fontSize(), fontName() generics and methods.
+      + [done] fontSize(), fontName() generics and methods.
+	  + way to "compute" font in OCR by clustering on height.
       + [done] fix the plot() method for TextBoundingBox to not access x$fontSize but to call a method.
-	
-1. isBold/isItalic - added to bounding box - YES
-    + generic and methods for isBold(). Returns vector of NAs by default.
-    	+ for PDFTextBoundingBox, columns fontIsBold, fontIsItalic now present.  Don't use
-          directly - isBold, isItalic.
-    + if only optionally in BoundingBox, have to check if it is in the column names
-	  + should we fill in the redundant font name, size, etc. information.
-    + if not present, can't determine it from the row of the BBox.
 	
 1. [Check being used] Put name of file, page number and dimension on the OCRResults object and the
    BoundingBox generally.
@@ -116,11 +117,25 @@
     + [done] Take the pageDimensions off as we already have imageDims.
   
 
+1. Possibly make OCRResults a DocumentPage ??
+     + no longer needed.  
+     + Can't recall offhand why we might have wanted to do this.
+
+
 If we use the BBox throughout, then perhaps we can justify the expense of
 computing all columns (e.g. font, color, etc.) we may need down-stream.
 
 
 ## Done
+
+1. [done] isBold/isItalic - added to bounding box - YES
+    + generic and methods for isBold(). Returns vector of NAs by default.
+    	+ for PDFTextBoundingBox, columns fontIsBold, fontIsItalic now present.  Don't use
+          directly - isBold, isItalic.
+    + if only optionally in BoundingBox, have to check if it is in the column names
+	  + should we fill in the redundant font name, size, etc. information.
+    + if not present, can't determine it from the row of the BBox.
+
 
 1. [Done - tests/plot.R] Resolve `Warning: replacing previous import ‘Dociface::plot’ by ‘graphics::plot’ when loading
   ‘Rtesseract’`
@@ -135,4 +150,4 @@ computing all columns (e.g. font, color, etc.) we may need down-stream.
 
 1. [Done] In OCR, getTextBBox() should drop rows with height = getPageHeight
 
-
+1. [Done] left, etc. method for ShapeBoundingBox. Not finding method.
