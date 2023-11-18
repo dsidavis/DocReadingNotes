@@ -211,18 +211,19 @@ function(page, threshold = .1,
 
 
 
-
+library(Rtesseract)
 pngs = list.files("ScannedEgs", pattern = "png$", full = TRUE)
 zzz = structure(lapply(pngs, GetBoxes), names = basename(pngs))
 names(zzz) = pngs
 
-
+#XXX If we don't load Rtesseract first, the next lines fail. 
+library(ReadPDF)
 xml = list.files("SamplePDFs", pattern = "xml$", full = TRUE)
 xmls = lapply(xml, function(x) { doc = readPDFXML(x); lapply(doc, getBBox2, asDataFrame = TRUE)})
-names(xmls) = xmls
+names(xmls) = xml
 
 
-pdfs = xml
+pdfs = xmls
 dev.set(3)
 par(mfrow = c( 3, 5)); invisible(mapply(function(d, id) { d = density(d$left, 3); plot(d, main = id, type = "b"); abline(h = quantile(d$y, .99), col = "red")}, pdfs, basename(names(pdfs))))
 par(mfrow = c( 3, 5)); invisible(mapply(function(d, id) { dens = density(d$left, 3); plot(dens, main = id, type = "b"); abline(h = quantile(dens$y, .99), col = "red"); abline(v = getColPositions(d, bw = 3), col = "green")}, pdfs, basename(names(pdfs))))
@@ -234,3 +235,14 @@ par(mfrow = c( 4, 5)); invisible(mapply(function(bb, id) { d = density(bb$left, 
 par(mfrow = c( 4, 5)); invisible(mapply(function(bb, id) { d = density(bb$left, 3); plot(d, main = id, type = "b"); abline(h = quantile(d$y, .99), col = "red"); abline(v = getColPositions(bb, bw = 3), col = "green")}, zzz, basename(names(zzz))))
 
 
+
+
+#################
+
+
+par(mfrow = c( 3, 3)); invisible(mapply(function(d) { d = density(d$left, 3); plot(d,  type = "b"); abline(h = quantile(d$y, .99), col = "red")}, pdfs[[1]]))
+
+
+# Show the text on the page and then density.
+# need to scale density for the page
+par(mfrow = c( 3, 3)); invisible(mapply(function(x) { plot(x); d = density(x$left, 3); lines(d); points(d); abline(h = quantile(d$y, .99), col = "red")}, pdfs[[1]]))
